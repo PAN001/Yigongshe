@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>资金支持-<{$Think.config.WEB_NAME}></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/sm.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/sm-extend.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/main-admin.css">
+
+  </head>
+  <body>
+    <div class="content-box no-top">
+    <div class="main-con">
+  <div class="search-box">
+  <form method="post" action="__URL__/smoneysupport/">
+    
+    <div class="row no-gutter">
+    <div class="col-90"><input name="mobile" type="text" placeholder="输入手机号进行搜索" class="input-text"></div>
+    <div class="col-10"><input name="submit" type="submit" value=" " class="btn-search"></div>
+    </div>
+   
+  </form>
+   </div>
+   
+   <div class="lists">
+    <volist name="smoneysupport" id="smoneysupport">
+    <div class="list-item">
+     <div class="row bor-b no-gutter">
+    <div class="col-80">
+     <ul>
+     <li>申请日期：<{$smoneysupport.date}></li>
+     <li>姓名：<php>$uid=$smoneysupport['uid'];$m=M('user');$profile=$m->where("uid='$uid'")->find();echo $profile['name'];</php></li>
+     <li>手机：<{$profile.mobile}></li>
+     <li>金额：<{$smoneysupport.price}>万</li>
+     </ul>
+    </div>
+    <div class="col-20">
+      <ul class="actions">
+       <if condition="$smoneysupport['status']==1">
+       <li class="bor-l"><a href="__URL__/domoneysupport/id/<{$smoneysupport.id}>/price/<{$moneysupport.price}>/uid/<{$moneysupport.uid}>/status/2/"><img src="__PUBLIC__/template/admin/images/icon_gou0.png" alt=""/></a></li>
+       <li class="bor-l bor-t"><a href="__URL__/deletemoneysupport/id/<{$smoneysupport.id}>/"><img src="__PUBLIC__/template/admin/images/icon_x0.png" alt=""/></a></li>
+       <elseif condition="$smoneysupport['status']==2" />
+       <li class="bor-l"><a><img src="__PUBLIC__/template/admin/images/icon_gou.png" alt=""/></a></li>
+       <else />
+       </if>
+      </ul>
+    </div>
+    </div>
+    </div>
+    </volist>
+   </div>
+      
+  </div>
+  
+  
+</div>
+    <nav class="bar bar-tab">
+    <a class="tab-item external" href="/Admin">
+      <span class="tab-label">返回导航</span>
+    </a>
+    </nav>
+    
+
+          
+          
+<script src="__PUBLIC__/template/admin/js/zepto.min.js"></script>
+<script src="__PUBLIC__/template/admin/js/sm.js"></script>
+<script src="__PUBLIC__/template/admin/js/sm-extend.js"></script>
+  </body>
+</html>

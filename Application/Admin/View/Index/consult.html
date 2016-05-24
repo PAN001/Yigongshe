@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>咨询管理-<{$Think.config.WEB_NAME}></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/sm.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/sm-extend.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/main-admin.css">
+
+  </head>
+  <body>
+    
+    <div class="content-box no-top">
+    <div class="main-con">
+    
+    <div class="senfen-p con-font con-color con-pd-s con-mb bgcolor-10">
+ 身份要求（不限/会员/义工/代表/理事）积分（>20）
+    </div>
+ <volist name="consult" id="consult">
+ <php>$uid=$consult['uid'];$m=M('user');$profile=$m->where("uid='$uid'")->find();</php>
+ <php>$uid=$consult['aid'];$m=M('user');$aprofile=$m->where("uid='$uid'")->find();</php>
+ <php>$id=$consult['cid'];$m=M('consultation_type');$type=$m->where("id='$id'")->find();</php>
+ <php>$cid=$consult['cid'];$m=M('intelapply');$intelapply=$m->where("cid='$cid' and status='2'")->select();</php>
+ <if condition="(!isset($consult['aid']) || $consult['aid']=='') and ($consult['status']==0)"> 
+ <div class="consult-p con-font con-color con-pd con-mb bgcolor-1">
+  <table cellpadding="0" cellspacing="0" class="data-table">
+     <tr><td>申请日期：<{$consult.date}></td><td>&nbsp;</td></tr>
+     <tr><td>姓名：<{$profile.name}></td><td>状态：<span>待处理</span></td></tr>
+     <tr><td>问题类型：<{$type.title}></td><td>手机：<{$profile.mobile}></td></tr>
+   </table>
+   <div class="con-area con-pd"><{$consult.content}>
+   </div>
+   <div class="con-bot">
+   <form action="__URL__/doconsult" method="POST">
+   <input type="hidden" name="id" value="<{$consult.id}>">
+   <div class="row no-gutter">
+    <div class="col-50" style="float:left;"><select name="aid" onchange="abc(this.options[this.options.selectedIndex].id)" style="float:left;"><option value="">手机号</option><volist name="intelapply" id="intelapply"><option value="<{$intelapply.uid}>" id="<php>$uid=$intelapply['uid'];$m=M('user');$naprofile=$m->where("uid='$uid'")->find(); echo $naprofile['name'];</php>"><php>$uid=$intelapply['uid'];$m=M('user');$nprofile=$m->where("uid='$uid'")->find(); echo $nprofile['mobile'];</php></option></volist></select> </div><div class="col-10" style="float:left;"><input id="ocontent" name="ocontent" style="background-color:transparent;border:none;"/></div>
+    <script>
+        function abc(s){
+            ocontent.value=s;
+            aid.value=s;
+            document.all.aid.options[0].selected=true;
+        }
+        </script>
+    <div class="col-40" style="float:right;"><input type="submit" value="发送" class="btn-send" style="float:right;"></div>
+    </div>
+    </form>
+   </div>
+  </div>
+  <elseif condition="(!isset($consult['aid']) || $consult['aid']=='') and ($consult['status']==0)"/>
+
+  <elseif condition="$consult['status']==1"/>
+  
+  <div class="sup-p2 con-font con-pd bgcolor-5 con-mt">
+   <table cellpadding="0" cellspacing="0" class="data-table">
+     <tr><td>日期：<{$consult.date}></td><td>&nbsp;</td></tr>
+     <tr><td>姓名：<{$profile.name}></td><td>状态：<span>处理中</span></td></tr>
+     <tr><td>问题类型：<{$type.title}></td><td>手机：<{$profile.mobile}></td></tr>
+   </table>
+  </div>
+  <elseif condition="$consult['status']==2"/>
+  <div class="sup-p2 con-font con-pd bgcolor-w con-mt">
+   <table cellpadding="0" cellspacing="0" class="data-table">
+     <tr><td>日期：<{$consult.date}></td><td>&nbsp;</td></tr>
+     <tr><td>姓名：<{$profile.name}></td><td>状态：<span>已完成</span></td></tr>
+     <tr><td>问题类型：<{$type.title}></td><td>手机：<{$profile.mobile}></td></tr>
+   </table>
+  </div>
+  <else />
+  <div class="sup-p2 con-font con-pd bgcolor-11 con-mt">
+  <table cellpadding="0" cellspacing="0" class="data-table">
+     <tr><td>申请日期：<{$consult.date}></td><td>&nbsp;</td></tr>
+     <tr><td>姓名：<{$profile.name}></td><td>状态：<span>发送中</span></td></tr>
+     <tr><td>问题类型：<{$type.title}></td><td>手机：<{$profile.mobile}></td></tr>
+   </table>
+   <div class="con-area-dark con-pd"><{$consult.content}>
+   </div>
+   <div class="con-bot">
+   <div class="row no-gutter">
+    <div class="col-60"><{$aprofile.mobile}> <span class="con-color"><{$aprofile.name}></span></div>
+    </div>
+   </div>
+  </div>
+  </if>
+  </volist>
+
+  </div>
+  
+  
+</div>
+    
+    <nav class="bar bar-tab">
+    <a class="tab-item external" href="/Admin">
+      <span class="tab-label">返回导航</span>
+    </a>
+    </nav>
+
+          
+          
+<script src="__PUBLIC__/template/admin/js/zepto.min.js"></script>
+<script src="__PUBLIC__/template/admin/js/sm.js"></script>
+<script src="__PUBLIC__/template/admin/js/sm-extend.js"></script>
+  </body>
+</html>

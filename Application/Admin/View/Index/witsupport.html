@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>智慧支持-<{$Think.config.WEB_NAME}></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/sm.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/sm-extend.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/main-admin.css">
+
+  </head>
+  <body>
+    <div class="content-box no-top">
+    <div class="main-con">
+  <div class="form-box">
+  <form method="post" action="">
+    
+    <div class="row no-gutter">
+    <div class="col-10"><input name="submit" type="submit" value=" " class="btn-search"></div>
+    <div class="col-90"><input name="text" type="text" placeholder="输入手机号搜索" class="input-text"><label>义务领域</label><select><option>请选择</option></select><label>时间表</label><input name="text" type="text" value="20" class="input-text2"></div>
+    </div>
+   
+  </form>
+   </div>
+   
+   <div class="lists">
+    <volist name="witsupport" id="witsupport">
+    <div class="list-item">
+     <div class="row bor-b no-gutter">
+    <div class="col-100">
+     <ul>
+     <a href="__URL__/witsupportdetail/uid/<{$witsupport.uid}>">
+     <li>申请日期：<{$witsupport.date}>　姓名：<php>$uid=$witsupport['uid'];$m=M('user');$profile=$m->where("uid='$uid'")->find();echo $profile['name'];</php>　性别：<if condition="$profile['sex']==1">男<else />女</if><br>
+出生日期：<{$profile.birth}>　积分：<{$profile.score}>　身份：<php>$id=$profile['type'];$m=M('user_type');$usertype=$m->where("id='$id'")->find();if($usertype){ echo $usertype['title']; }else{ echo "会员"; }</php><br>
+义务领域：<php>$id=$witsupport['oid'];$m=M('obligation_type');$obligation_type=$m->where("id='$id'")->find(); echo $obligation_type['title'];</php>　咨询领域：<php>$id=$witsupport['cid'];$m=M('consultation_type');$consultation_type=$m->where("id='$id'")->find(); echo $consultation_type['title'];</php>　状态：<if condition="$witsupport['status']==1">待审核<else />通过</if><br>
+当前义务：<php>$uid=$profile['uid'];$m=M('obligation');$nowobligation=$m->where("uid='$uid' and status='1'")->count();echo $nowobligation;</php>　当前咨询：<php>$aid=$profile['uid'];$m=M('consultation');$nowconsultation=$m->where("aid='$aid'")->count();echo $nowconsultation;</php>　手机：<{$profile.mobile}>
+</li></a>
+     </ul>
+    </div>
+    
+    </div>
+    </div>
+    </volist>
+   </div>
+      
+  </div>
+  
+  
+</div>
+    
+    <nav class="bar bar-tab">
+    <a class="tab-item external" href="/Admin">
+      <span class="tab-label">返回导航</span>
+    </a>
+    </nav>
+
+          
+          
+<script src="__PUBLIC__/template/admin/js/zepto.min.js"></script>
+<script src="__PUBLIC__/template/admin/js/sm.js"></script>
+<script src="__PUBLIC__/template/admin/js/sm-extend.js"></script>
+  </body>
+</html>

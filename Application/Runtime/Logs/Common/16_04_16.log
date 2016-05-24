@@ -1,0 +1,132 @@
+[ 2016-04-16T01:41:24+08:00 ] 61.153.150.106 /identity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Identity
+
+[ 2016-04-16T01:57:15+08:00 ] 101.226.125.121 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T01:58:38+08:00 ] 106.120.160.109 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T01:58:45+08:00 ] 101.199.108.56 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T01:58:45+08:00 ] 182.140.230.15 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T01:58:48+08:00 ] 171.8.167.71 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T01:58:49+08:00 ] 27.221.19.12 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T01:58:51+08:00 ] 171.8.167.62 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T01:58:52+08:00 ] 27.221.19.12 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T05:45:14+08:00 ] 112.17.242.106 /users.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Users
+
+[ 2016-04-16T05:45:18+08:00 ] 112.17.242.106 /moneySupport.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:MoneySupport
+
+[ 2016-04-16T05:45:39+08:00 ] 112.17.242.106 /witSupport.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:WitSupport
+
+[ 2016-04-16T05:45:45+08:00 ] 112.17.242.106 /integral.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Integral
+
+[ 2016-04-16T05:46:01+08:00 ] 112.17.242.106 /manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Manual
+
+[ 2016-04-16T05:46:04+08:00 ] 112.17.242.106 /stuff.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Stuff
+
+[ 2016-04-16T13:25:16+08:00 ] 61.153.150.106 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-04-16T15:43:50+08:00 ] 101.226.233.153 /index.php/Index/wechat?signature=d7953a92b8a5a9731323d28b5b2a483f1354e7b5&echostr=7174816373514043383&timestamp=1460792630&nonce=2089347709
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-16T15:55:10+08:00 ] 101.226.103.59 /index.php?m=Index&c=Index&a=wechat&signature=05342d396dc391972bffc13c87a02408c7de0e65&echostr=7618384395222122494&timestamp=1460793310&nonce=19821021
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-16T15:57:25+08:00 ] 101.226.103.59 /index.php?m=Index&c=Wechat&a=index&signature=937f30d51bb62585ef71aa1f99331fde811b3ce8&echostr=310302025704404343&timestamp=1460793445&nonce=2056661873
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-16T15:58:04+08:00 ] 101.226.233.153 /index.php?m=Index&c=Wechat&a=index&signature=53c7599d650a6c0d5c3c79acfe87080e652f1254&echostr=4308713108370227133&timestamp=1460793484&nonce=616175511
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-16T16:02:39+08:00 ] 101.226.103.70 /index.php?m=Index&c=Wechat&a=index&signature=25726bfb9f9c3db1d0c57cbb2bbccfd7c38219ca&echostr=4728522792631007198&timestamp=1460793758&nonce=539803185
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-16T16:03:00+08:00 ] 61.153.150.106 /index.php?m=Index&c=Wechat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Index
+
