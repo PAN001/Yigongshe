@@ -1,0 +1,436 @@
+[ 2016-05-31T06:49:12+08:00 ] 125.111.89.87 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-05-31T06:49:12+08:00 ] 125.111.89.87 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-05-31T06:49:13+08:00 ] 125.111.89.87 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-05-31T06:49:14+08:00 ] 112.64.235.249 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-05-31T06:49:14+08:00 ] 112.64.235.249 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-05-31T06:49:14+08:00 ] 180.153.163.190 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-05-31T06:49:14+08:00 ] 112.64.235.249 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-05-31T06:49:14+08:00 ] 180.153.163.190 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-05-31T06:49:14+08:00 ] 180.153.163.191 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-05-31T06:49:15+08:00 ] 180.153.163.191 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-05-31T06:49:15+08:00 ] 180.153.163.190 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-05-31T06:49:15+08:00 ] 180.153.163.191 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-05-31T06:49:25+08:00 ] 180.153.160.28 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-05-31T06:49:25+08:00 ] 180.153.160.28 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-05-31T06:49:25+08:00 ] 180.153.160.28 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-05-31T06:49:29+08:00 ] 125.111.89.87 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `vol_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_admin` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-05-31T06:49:29+08:00 ] 180.153.206.13 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-05-31T06:49:30+08:00 ] 125.111.89.87 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/IndexController.class.php on line 6 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-05-31T06:49:33+08:00 ] 180.153.206.13 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-05-31T06:49:34+08:00 ] 125.111.89.87 /Admin/Index/users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` ORDER BY score DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-05-31T06:49:39+08:00 ] 180.153.206.13 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-05-31T06:49:58+08:00 ] 125.111.89.87 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/IndexController.class.php on line 6 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-05-31T06:50:00+08:00 ] 125.111.89.87 /Admin/Index/witsupport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` ORDER BY date DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_obligation` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016004' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016005' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016002' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016002' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016002' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-05-31T06:50:04+08:00 ] 125.111.89.87 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/IndexController.class.php on line 6 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-05-31T06:50:05+08:00 ] 125.111.89.87 /Admin/Index/moneysupport
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_sup_money` ORDER BY Id DESC  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/IndexController.class.php on line 12 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016006' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016002' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+

@@ -1,53 +1,121 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>视频资料-<{$Think.config.WEB_NAME}></title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>视频资料-<{$Think.config.WEB_NAME}></title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="icon" type="image/png" href="__PUBLIC__/template/default/assets/i/favicon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="__PUBLIC__/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="__PUBLIC__/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileImage" content="__PUBLIC__/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+  <link rel="stylesheet" href="__PUBLIC__/template/default/assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/template/default/assets/css/app.css">
+</head>
+<body>
+  <header data-am-widget="header"
+          class="am-header am-header-default">
+      <div class="am-header-left am-header-nav">
+          <a href="/" class="">
 
-    <link rel="stylesheet" href="__PUBLIC__/template/css/sm.css">
-    <link rel="stylesheet" href="__PUBLIC__/template/css/sm-extend.css">
-    <link rel="stylesheet" href="__PUBLIC__/template/css/main.css">
-          
-  </head>
-  <body>
-    <div class="content-box no-top">
-       <div class="main-con">
-        <volist name="video" id="video">
-        <a href="<{$video.url}>"><div class="con-font con-pd bgcolor-w con-mb">
-              <div class="row v-bg video-item">
-              <img src="<{$video.thumb}>" style="height:100%;width:100%;">
-              </div>
-              <p style="color:#000"><{$video.title}><span style="float:right;"><{$video.date}></span></p>
-        </div></a>
-        </volist>
-       </div>
+                <i class="am-header-icon am-icon-home"></i>
+          </a>
+      </div>
+
+      <h1 class="am-header-title">
+          <a href="" class="">
+            视频资料
+          </a>
+      </h1>
+
+      <div class="am-header-right am-header-nav">
+          <a href="/User/Index/index" class="">
+          <if condition="(!isset($_SESSION['uid']) || $_SESSION['uid']=='')">
+          <img src="__PUBLIC__/template/default/assets/i/yigavatar.jpg" alt="" class="am-comment-avatar" style="width:35px;height:35px;margin-top:8px;margin-bottom:8px;">
+          <else />
+          <img src="<{$comprofile.avatar}>" alt="" class="am-comment-avatar" style="width:35px;height:35px;margin-top:8px;margin-bottom:8px;">
+          </if>
+          </a>
+      </div>
+  </header>
+  
+    <div class="am-panel-group" id="accordion">
+  <volist name="video" id="video" offset="0" length='1'>
+  <div class="am-panel am-panel-default">
+    <div class="am-panel-hd">
+      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-0'}">
+        <{$video.title}>
+      </h4>
     </div>
-    
-    <nav class="bar bar-tab">
-    <a class="tab-item external" href="__URL__/index">
-      <span class="tab-label">工社服务</span>
-    </a>
-    <a class="tab-item external active" href="__URL__/video">
-      <span class="tab-label">视频资料</span>
-    </a>
-    <a class="tab-item external" href="__URL__/teletext">
-      <span class="tab-label">图文资料</span>
-    </a>
-    <a class="tab-item external" href="__URL__/usermanual">
-      <span class="tab-label">会员手册</span>
-    </a>
-   
-  </nav>
+    <div id="do-not-say-0" class="am-panel-collapse am-collapse am-in">
+      <div class="am-panel-bd">
+        <a href="<{$video.url}>"><img src="<{$video.thumb}>" style="height:100%;width:100%;" class="am-img-thumbnail"></a>
+      </div>
+    </div>
+  </div>
+  </volist>
+  <volist name="videoa" id="videoa" offset="1" length='4'>
+  <div class="am-panel am-panel-default">
+    <div class="am-panel-hd">
+      <h4 class="am-panel-title" data-am-collapse="{parent: '#accordion', target: '#do-not-say-<{$videoa.id}>'}">
+        <{$videoa.title}>
+      </h4>
+    </div>
+    <div id="do-not-say-<{$videoa.id}>" class="am-panel-collapse am-collapse">
+      <div class="am-panel-bd">
+        <a href="<{$videoa.url}>"><img src="<{$videoa.thumb}>" style="height:100%;width:100%;" class="am-img-thumbnail"></a>
+      </div>
+    </div>
+  </div>
+  </volist>
+</div>
 
-          
-          
-<script src="__PUBLIC__/template/js/zepto.min.js"></script>
-<script src="__PUBLIC__/template/js/sm.js"></script>
-<script src="__PUBLIC__/template/js/sm-extend.js"></script>
-  </body>
+<div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default "
+     id="">
+  <ul class="am-navbar-nav am-cf am-avg-sm-4">
+    <li>
+      <a href="__URL__/index">
+        <span class="am-icon-server"></span>
+        <span class="am-navbar-label">工社服务</span>
+      </a>
+    </li>
+    <li>
+      <a href="__URL__/video">
+        <span class="am-icon-video-camera"></span>
+        <span class="am-navbar-label">视频资料</span>
+      </a>
+    </li>
+    <li>
+      <a href="__URL__/teletext">
+        <span class="am-icon-picture-o"></span>
+        <span class="am-navbar-label">图文资料</span>
+      </a>
+    </li>
+    <li>
+      <a href="__URL__/usermanual">
+        <span class="am-icon-book"></span>
+        <span class="am-navbar-label">会员手册</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/template/default/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="__PUBLIC__/template/default/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/template/default/assets/js/amazeui.min.js"></script>
+</body>
 </html>

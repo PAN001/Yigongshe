@@ -15,11 +15,20 @@ class IndexController extends Controller {
         $this->assign('active',$active);
         $m=M('active_sign');
         $activenum = $m->where("aid='$aid'")->sum('number');
-        $this->assign('activenum',$activenum);
+        if($activenum){
+            $this->assign('activenum',$activenum);
+        }else{
+            $activenum='0';
+            $this->assign('activenum',$activenum);
+        }
         $uid=$_SESSION['uid'];
         $m=M('user');
         $profile= $m->where("uid='$uid'")->find();
         $this->assign('profile',$profile);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->show();
     }
     public function doask(){
@@ -120,14 +129,30 @@ class IndexController extends Controller {
     }
     public function video(){
         $m=M('videos');
-        $video=$m->order("id DESC")->limit(3)->select();
+        $video=$m->order("id DESC")->select();
         $this->assign('video',$video);
+        $this->assign('videoa',$video);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
     public function teletext(){
         $m=M('article');
-        $article=$m->order("id DESC")->limit(3)->select();
+        $article=$m->order("id DESC")->limit(8)->select();
         $this->assign('article',$article);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
+        $this->display();
+    }
+    public function usermanual(){
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
 }

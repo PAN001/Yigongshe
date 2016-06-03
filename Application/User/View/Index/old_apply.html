@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><{$applyid.title}>申请-<{$Think.config.WEB_NAME}></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="__PUBLIC__/template/css/sm.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/css/sm-extend.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/css/main.css">
+          
+  </head>
+  <body>
+    <div class="content-box no-top">
+       <div class="main-con">
+   
+  <form class="form-box" action="__URL__/doapply" method="POST">
+  <div class="con-font con-pd bgcolor-w con-mb2">
+           
+              <div class="row">
+              <input type="hidden" name="tid" value="<{$applyid.id}>">
+              <input type="hidden" name="uid" value="<{$_SESSION.uid}>">
+              <textarea name="content" class="textarea-unit2" placeholder="申请叙述（200字）"></textarea>
+              </div>
+              
+         
+        </div>
+  <div class="text-center"><input type="submit" class="btn-submit2 wp60" value="提 交"></div>
+    </form>
+       </div>
+       
+       
+    </div>
+    
+   <nav class="bar bar-tab">
+    <a class="tab-item external" href="/">
+      <span class="tab-label">综合信息</span>
+    </a>
+    <a class="tab-item external" href="__URL__/support">
+      <span class="tab-label">提供支持</span>
+    </a>
+    <a class="tab-item external active" href="__URL__/index">
+      <span class="tab-label">我的信息</span>
+    </a>
+   
+  </nav>
+             
+
+          
+          
+<script src="__PUBLIC__/template/js/zepto.min.js"></script>
+<script src="__PUBLIC__/template/js/sm.js"></script>
+<script src="__PUBLIC__/template/js/sm-extend.js"></script>
+  </body>
+</html>

@@ -1,14 +1,14 @@
 {
-    "name": "topthink/thinkphp",
+    "name": "volcms/thinkphp",
     "description": "the ThinkPHP Framework",
     "type": "framework",
     "keywords": ["framework","thinkphp","ORM"],
-    "homepage": "http://thinkphp.cn/",
+    "homepage": "http://www.singka.cn/",
     "license": "Apache2",
     "authors": [
         {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
+            "name": "shycomet",
+            "email": "shycomet@singka.cn"
         }
     ],
     "require": {

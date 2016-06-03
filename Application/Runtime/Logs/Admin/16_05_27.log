@@ -1,0 +1,22 @@
+[ 2016-05-27T08:22:59+08:00 ] 121.42.0.33 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+

@@ -1,78 +1,106 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>完善信息-<?php echo (C("WEB_NAME")); ?></title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>完善信息-<?php echo (C("WEB_NAME")); ?></title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="icon" type="image/png" href="/Public/template/default/assets/i/favicon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="/Public/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="/Public/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileImage" content="/Public/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
 
-    <link rel="stylesheet" href="/Public/template/css/sm.css">
-    <link rel="stylesheet" href="/Public/template/css/sm-extend.css">
-    <link rel="stylesheet" href="/Public/template/css/main.css">
-    <link rel="stylesheet" href="/Public/template/css/select.css">
-          
-  </head>
-  <body>
-  
-  
-    
-    <div class="content-box no-top">           
-    
-    <div class="myinfo-top">
-       
-        <div class="info-con clearfix">
-       <img src="<?php echo ($avatar); ?>" class="avatar">
-         <div class="text">宁波志合义工社欢迎你！<br>信息一经提交，不再允许更改！</div>
-        </div>
-      
-    </div>
-    <form action="/User/Index/reg" method="POST" enctype="multipart/form-data">
-        <input type="hidden" name="openid" class="input-text wp60" value="<?php echo ($openid); ?>" style="border-style:none">
+  <link rel="stylesheet" href="/Public/template/default/assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="/Public/template/default/assets/css/app.css">
+</head>
+<body>
+  <header data-am-widget="header" class="am-header am-header-default" style="height:100px;">
+      <div class="am-header-left am-header-nav">
+          <a href="#left-link" class="">
+            <img src="<?php echo ($avatar); ?>" alt="" class="am-img-thumbnail am-circle" style="width:80px;height:80px;margin-top:8px;margin-bottom:8px;">
+          </a>
+      </div>
+
+      <h1 class="am-header-title" style="line-height:20px;font-size:10pt;text-align:left;width:60%;">
+         <div style="margin-top:18px;margin-left:15px;margin-left:0px;">宁波志合义工社欢迎你！<br>信息一经提交，不再允许更改！</div>
+      </h1>
+
+  </header>
+  <div class="am-titlebar am-titlebar-multi" style="padding-top:1px;margin-top:0px;">
+    <h2 class="am-titlebar-title ">
+        完善个人信息
+    </h2>
+  </div>
+<form action="/User/Index/reg" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="openid" class="input-text wp60" value="<?php echo ($openid); ?>" style="border-style:none">
         <input type="hidden" name="avatar" class="input-text wp60" value="<?php echo ($avatar); ?>" style="border-style:none">
-       <div class="main-con main-con2">
+<table class="am-table am-table-bordered am-table-radius am-table-striped" border="0" style="border-color:#FFF;margin-bottom:-16px;padding-top:4px;">
+    <tbody>
+        <tr class="am-primary">
+            <td class="" style="width:50%;border-width:5px;border-color:#FFF;font-size:10pt;line-height:25px;"><i class="am-icon-user"></i>&nbsp姓名 <input type="text" name="name" class="" value="" style="border-style:none;width:65%;background-color:transparent;" placeholder="请输入真实姓名"></td>
+            <td class="" style="width:50%;border-width:5px;border-color:#FFF;font-size:10pt;"><div style="float:left;line-height:25px;"><i class="am-icon-venus"></i>&nbsp性别&nbsp</div><div style="float:left;line-height:5px;"><input type="radio" name="sex" value="1"> 男 <input type="radio" name="sex" value="0"> 女 </div></td>
+        </tr>
+        <tr class="am-primary">
+            <td class="" style="width:50%;border-width:5px;border-color:#FFF;font-size:10pt;line-height:25px;"><i class="am-icon-calendar"></i>&nbsp生日 <input type="date" name="birth" class="" value="" style="width:65%;" placeholder="请选择出生日期"></td>
+            <td class="" style="width:50%;border-width:5px;border-color:#FFF;font-size:10pt;line-height:25px;"><i class="am-icon-mobile"></i>&nbsp手机号 <input type="text" name="mobile" class="" value="" style="border-style:none;width:65%;background-color:transparent;" placeholder="请输入手机号码"></td>
+        </tr>
+        <tr class="am-primary">
+            <td colspan="2" class="" style="border-width:5px;border-color:#FFF;font-size:10pt;line-height:25px;"><i class="am-icon-user-md"></i>&nbsp推荐人&nbsp<input type="text" name="rmobile" class="" value="" style="border-style:none;width:200px;background-color:transparent;" placeholder="请输入推荐人手机号">
+            </td>
+        </tr>
+		<tr class="am-primary">
+            <td colspan="2" class="" style="width:50%;border-width:5px;border-color:#FFF;font-size:10pt;line-height:25px;"><i class="am-icon-book"></i>&nbsp地址 <input type="text" name="address" class="" value="" style="border-style:none;width:80%;background-color:transparent;" placeholder="请输入联系地址"></td>
+        </tr>
+    </tbody>
+    
+</table>
+<div style="padding-top:20px">
+<input type="submit" class="am-btn am-btn-primary" value="提交" style="height:39px;width:100%;"></div>
+</form>
 
-         <div class="con-font con-mb">
-           <table cellpadding="2" cellspacing="2" border="1" class="info-table">
-     <tr><td>姓名： <span><input type="text" name="name" class="input-text wp60" value="" style="border-style:none" placeholder="请输入您的姓名"></span></td><td>性别：<span><input type="radio" name="sex" value="1"> 男 <input type="radio" name="sex" value="0"> 女 </span></td></tr>
-     <tr><td>手机号： <span><input type="text" name="mobile" class="input-text wp60" value="" style="border-style:none" placeholder="请输入手机号码"></span></td><td>推荐人：<span><input type="text" name="rmobile" class="input-text wp60" value="" style="border-style:none" placeholder="推荐人手机号"></span></td></tr>
-     <tr><td colspan="2">出生日期：<span><input type="date" name="birth" class="input-text wp90" value="" style="border-style:none" placeholder="请选择出生日期"></span></td></tr>
-     <tr><td colspan="2">地址：<span><input type="text" name="address" class="input-text wp90" value="" style="border-style:none" placeholder="请输入您的地址"></span></td></tr>
-   </table>
-        </div>
-       </div>
-       <div class="row text-center">
-              <input type="submit" class="btn-submit wp60" value="提交">
-       </div>
-    </form>
-       
-       
-       
-       
-    </div>
-    
-    
-    
-    
-    <nav class="bar bar-tab">
-    <a class="tab-item external" href="#">
-      <span class="tab-label">综合信息</span>
-    </a>
-    <a class="tab-item external" href="#">
-      <span class="tab-label">提供支持</span>
-    </a>
-    <a class="tab-item external active" href="#">
-      <span class="tab-label">我的信息</span>
-    </a>
-   
-  </nav>
 
-          
-          
-<script src="/Public/template/js/zepto.min.js"></script>
-<script src="/Public/template/js/sm.js"></script>
-<script src="/Public/template/js/sm-extend.js"></script>
-  </body>
+
+
+<div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default "
+     id="">
+  <ul class="am-navbar-nav am-cf am-avg-sm-4">
+    <li>
+      <a href="/">
+        <span class="am-icon-server"></span>
+        <span class="am-navbar-label">综合信息</span>
+      </a>
+    </li>
+    <li>
+      <a href="/User/Index/support">
+        <span class="am-icon-support"></span>
+        <span class="am-navbar-label">提供支持</span>
+      </a>
+    </li>
+    <li>
+      <a href="/User/Index/index">
+        <span class="am-icon-user"></span>
+        <span class="am-navbar-label">我的信息</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/Public/template/default/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="/Public/template/default/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="/Public/template/default/assets/js/amazeui.min.js"></script>
+</body>
 </html>

@@ -34,13 +34,56 @@ class IndexController extends Controller {
             $indexapplystatus='0';
         }
         $this->assign('indexapplystatus',$indexapplystatus);
-        if($is_sup==1){
+        if($is_sup<>0){
             $this->display();
         }else{
             $this->error('只有提供支持后才能成为会员','/User/Index/support');
         }
 	}
     }
+    public function set(){
+    $_SESSION['urlReferer']='http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].'?'.$_SERVER['QUERY_STRING'];
+    if(!isset($_SESSION['uid']) || $_SESSION['uid']==''){
+		$this->redirect('http://yigong.igawk.cn/api');
+	}else{
+	    $uid=$_SESSION['uid'];
+        $m=M('user');
+        $profile=$m->where("uid='$uid'")->find();
+        $is_sup=$profile['support'];
+        $this->assign('profile',$profile);
+        $this->display();
+	}
+    }
+    public function doset(){
+			$rules = array(
+			array('name', 'require', '请输入姓名'),
+			array('mobile', '','手机号码已经存在', 0 , 'unique', 1),
+			array('mobile','require','请输入手机号码'),
+			array('sex','require','请选择性别'),
+			array('birth','require','请选择出生日期'),
+			array('address','require','请输入您的地址'),
+			);
+			$user = M('User'); // 实例化User对象
+			if (!$user->validate($rules)->create()){
+				// 如果创建失败 表示验证没有通过 输出错误提示信息
+				$this->error($user->getError());
+				}else{
+					$uid=$_POST['uid'];
+					$data['name']=$_POST['name'];
+					$data['sex']=$_POST['sex'];
+					$data['mobile']=$_POST['mobile'];
+					$data['birth']=$_POST['birth'];
+					$data['address']=$_POST['address'];
+					$data['joindate']=date('Y-m-d',time());
+					$m=M('user');
+					$doset=$m->where("uid='$uid'")->save($data);
+					if($doset){
+					    $this->success('修改信息成功','/User/Index/index');
+					}else{
+					    $this->error('修改信息失败','/User/Index/login');
+					}
+				}
+		}
     public function login(){
         if(!isset($_SESSION['urlReferer']) || $_SESSION['urlReferer']==''){
 				$_SESSION['urlReferer']='http://yigong.igawk.cn/User/Index/index';
@@ -145,6 +188,10 @@ class IndexController extends Controller {
             $otherstatus='0';
         }
         $this->assign('otherstatus',$otherstatus);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
 	}
     }
@@ -171,7 +218,10 @@ class IndexController extends Controller {
         $m=M('consultation_type');
         $consultation_typee=$m->select();
         $this->assign('consultation_typee',$consultation_typee);
-        
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
 	}
     }
@@ -239,8 +289,7 @@ class IndexController extends Controller {
         $m=M('sup_money');
         $dosupportm=$m->add($data);
         $m=M('user');
-        $dataa['support']='1';
-        $dosupportuser=$m->where("uid='$uid'")->save($dataa);
+        $dosupportuser=$m->where("uid='$uid'")->setInc('support',1);
         if($dosupportm and $dosupportuser){
             $this->success('登记成功，请等待审核','/User/Index/support');
         }else{
@@ -261,8 +310,7 @@ class IndexController extends Controller {
         $m=M('sup_other');
         $doothersup=$m->add($data);
         $m=M('user');
-        $dataa['support']='1';
-        $dosupportuser=$m->where("uid='$uid'")->save($dataa);
+        $dosupportuser=$m->where("uid='$uid'")->setInc('support',1);
         if($doothersup and $dosupportuser){
             $this->success('登记成功，请等候审核','/User/Index/support');
         }else{
@@ -279,6 +327,10 @@ class IndexController extends Controller {
         $m=M('integral_record');
         $integralrecord=$m->where("uid='$uid'")->select();
         $this->assign('integralrecord',$integralrecord);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
     }
@@ -291,6 +343,10 @@ class IndexController extends Controller {
         $m=M('user_type');
         $applyid=$m->where("id='$cid'")->find();
         $this->assign('applyid',$applyid);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
     }
@@ -316,6 +372,10 @@ class IndexController extends Controller {
         $m=M('finance');
         $finance=$m->order('id')->limit(10)->select();
         $this->assign('finance',$finance);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
     }
@@ -339,6 +399,10 @@ class IndexController extends Controller {
         $m=M('user');
         $myrecommend=$m->where("rmobile='$rmobile' and status='1' or rmobile='$rmobile' and status='2'")->select();
         $this->assign('myrecommend',$myrecommend);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
     }
@@ -382,6 +446,10 @@ class IndexController extends Controller {
         $m=M('consultation_type');
         $consultation_typee=$m->select();
         $this->assign('consultation_typee',$consultation_typee);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
     }
@@ -443,6 +511,10 @@ class IndexController extends Controller {
         $m=M('obligation');
         $mydutyadmin=$m->where("uid='$uid'")->order('id DESC')->select();
         $this->assign('mydutyadmin',$mydutyadmin);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
     }
@@ -482,6 +554,10 @@ class IndexController extends Controller {
         $m=M('consultation');
         $myconadmin=$m->where("aid='$aid'")->order('id DESC')->select();
         $this->assign('myconadmin',$myconadmin);
+        $uid=$_SESSION['uid'];
+        $m=M('user');
+        $comprofile=$m->where("uid='$uid'")->find();
+        $this->assign('comprofile',$comprofile);
         $this->display();
     }
     }

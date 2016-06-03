@@ -1,0 +1,2199 @@
+[ 2016-05-23T03:14:45+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-05-23T03:15:01+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0005s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-05-23T03:16:14+08:00 ] 121.42.0.17 /.DS_Store
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-05-23T03:17:54+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-05-23T03:18:20+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-05-23T03:21:16+08:00 ] 121.42.0.17 /index.php?disp=dynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-05-23T03:21:17+08:00 ] 121.42.0.17 /index.php?disp=dynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-23T05:17:00+08:00 ] 121.42.0.17 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-05-23T05:17:08+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0006s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-05-23T05:21:10+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-05-23T05:22:52+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-05-23T05:22:55+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-05-23T05:22:57+08:00 ] 121.42.0.17 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-05-23T05:23:17+08:00 ] 121.42.0.17 /?q=node&destination=node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-05-23T05:23:50+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-05-23T05:24:05+08:00 ] 121.42.0.17 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-05-23T05:24:32+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-05-23T05:24:36+08:00 ] 121.42.0.54 /?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-05-23T05:25:11+08:00 ] 121.42.0.17 /?-dallow_url_include%3don+-dauto_prepend_file%3dphp://input
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-05-23T05:27:02+08:00 ] 121.42.0.17 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-05-23T05:41:06+08:00 ] 121.42.0.17 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-05-23T10:25:49+08:00 ] 101.71.255.235 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-05-23T17:14:43+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0006s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-05-23T20:48:26+08:00 ] 58.247.206.148 /index.php?m=Home&c=Wechat&a=index&signature=9bde8323608c90d6122435f0747e37759e7b036a&timestamp=1464007706&nonce=845022647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:23:11+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=658c793679d5eb0592a67b15e5a21374a9ac88e1&timestamp=1464009791&nonce=1316125684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:23:39+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=b1fcb2dc9911ff2dcb1f39b1379c128440be52b7&timestamp=1464009818&nonce=341753761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:23:39+08:00 ] 58.247.206.149 /index.php?m=Home&c=Wechat&a=index&signature=5dc1ecafb9b1903712a54e5b62daa17edeef17b7&timestamp=1464009819&nonce=1670209682
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:23:51+08:00 ] 58.247.206.151 /index.php?m=Home&c=Wechat&a=index&signature=b32965311b35eae94fa81b633b45ff1e80fdf95a&timestamp=1464009831&nonce=567817518
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:25:01+08:00 ] 58.247.206.146 /index.php?m=Home&c=Wechat&a=index&signature=c6d6b865447075db7f81852c0f861ddd22106fc7&timestamp=1464009901&nonce=790907825
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:26:47+08:00 ] 58.247.206.156 /index.php?m=Home&c=Wechat&a=index&signature=2d4c8862bf58ea9c8300ace708dc57e3b3979b23&timestamp=1464010007&nonce=1150788089
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:26:48+08:00 ] 140.207.185.124 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-05-23T21:26:48+08:00 ] 117.135.173.56 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-05-23T21:26:48+08:00 ] 117.185.27.104 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0032s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-05-23T21:26:48+08:00 ] 140.207.185.122 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-05-23T21:27:07+08:00 ] 58.247.206.156 /index.php?m=Home&c=Wechat&a=index&signature=b520a641e3f5177e155936a37804e79658055f5f&timestamp=1464010027&nonce=2140608454
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:27:10+08:00 ] 125.116.211.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-05-23T21:27:18+08:00 ] 58.247.206.154 /index.php?m=Home&c=Wechat&a=index&signature=7f16d7e62f6f6ef7eb4387d69005492988e0349c&timestamp=1464010038&nonce=1986034108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:27:30+08:00 ] 140.207.54.74 /index.php?m=Home&c=Wechat&a=index&signature=1bbd20672c12a8d09696565e25cf9d5f068c119f&timestamp=1464010050&nonce=617660205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:27:47+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=84cc86fa29aab95b6ba42515b8fded243448e16e&timestamp=1464010067&nonce=953078936
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:28:03+08:00 ] 125.116.211.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-05-23T21:28:08+08:00 ] 58.247.206.151 /index.php?m=Home&c=Wechat&a=index&signature=22e20808d29baa142c5ff02f2f2201dee1e894fd&timestamp=1464010088&nonce=2105435115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:28:15+08:00 ] 58.247.206.150 /index.php?m=Home&c=Wechat&a=index&signature=269154d4af63449ce5981ba7c2a1741524ae0b49&timestamp=1464010095&nonce=1511448753
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:28:54+08:00 ] 58.247.206.146 /index.php?m=Home&c=Wechat&a=index&signature=438210ad50588d450dfc43a0709686f252cee8e3&timestamp=1464010134&nonce=29190633
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:28:56+08:00 ] 58.247.206.146 /index.php?m=Home&c=Wechat&a=index&signature=653e75eabb362af6d395e5105e5bde41b136b1e9&timestamp=1464010136&nonce=481614264
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:32:34+08:00 ] 58.247.206.151 /index.php?m=Home&c=Wechat&a=index&signature=ed893f5243286dec7cc2d8b8f76ac277fd0aae86&timestamp=1464010354&nonce=1329592136
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:32:37+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=6cc9a82af50b1932556b7283a2df73a751f9aa55&timestamp=1464010357&nonce=630439559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:33:06+08:00 ] 58.247.206.156 /index.php?m=Home&c=Wechat&a=index&signature=1b8f062c2d843e2417331d70926e2bc8d28c5fd0&timestamp=1464010386&nonce=1900725029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:33:09+08:00 ] 125.116.211.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-05-23T21:33:10+08:00 ] 125.116.211.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-05-23T21:33:13+08:00 ] 125.116.211.1 /Home/Index/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `vol_videos` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_videos` ORDER BY id DESC LIMIT 3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-05-23T21:33:13+08:00 ] 125.116.211.1 /Home/Index/teletext
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `vol_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_article` ORDER BY id DESC LIMIT 3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-05-23T21:33:15+08:00 ] 125.116.211.1 /Home/Index/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `vol_videos` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_videos` ORDER BY id DESC LIMIT 3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-05-23T21:33:15+08:00 ] 180.153.214.189 /Home/Index/teletext
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `vol_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_article` ORDER BY id DESC LIMIT 3   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-05-23T21:33:17+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=0679b40014de0b677e34229843f2c0135731e5b4&timestamp=1464010397&nonce=1851024063
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:33:55+08:00 ] 58.247.206.156 /index.php?m=Home&c=Wechat&a=index&signature=9acb1d274c6b41551dea8ffaed73c718d2ad6537&timestamp=1464010435&nonce=1369880729
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:34:04+08:00 ] 58.247.206.139 /index.php?m=Home&c=Wechat&a=index&signature=b51d7948e404267379cf7b875de28e82bf723009&timestamp=1464010444&nonce=2072228626
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:34:19+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=83c9a1aad4cee96aa5110abab9ec44cd74b35b2b&timestamp=1464010459&nonce=818733902
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:34:24+08:00 ] 125.116.211.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-05-23T21:34:25+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=5586646a3f2223c42889e2656450faa8f36d7c21&timestamp=1464010465&nonce=588088113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:34:25+08:00 ] 58.247.206.151 /index.php?m=Home&c=Wechat&a=index&signature=26799e7c057ba91b07fc062f6d221cb023aba4f0&timestamp=1464010465&nonce=597583191
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:34:40+08:00 ] 58.247.206.158 /index.php?m=Home&c=Wechat&a=index&signature=67fd02ee3080fcd3e95c71897dcb52d2a0960eeb&timestamp=1464010480&nonce=111353615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:35:24+08:00 ] 58.247.206.144 /index.php?m=Home&c=Wechat&a=index&signature=2372724cbbccb62b8e695392ce2b765f859fdefc&timestamp=1464010524&nonce=1891792963
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:35:35+08:00 ] 58.247.206.152 /index.php?m=Home&c=Wechat&a=index&signature=449a804d27202a2671079fe63a41048fe3b3e2c6&timestamp=1464010535&nonce=1827029369
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:36:06+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=76169c7b6d6786b85e22bff12d55d7f0b2163bd9&timestamp=1464010566&nonce=23236007
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:36:11+08:00 ] 58.247.206.151 /index.php?m=Home&c=Wechat&a=index&signature=f3f8b050f8369dfcf392093c5b0949f07152b007&timestamp=1464010571&nonce=514311939
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:36:11+08:00 ] 125.116.211.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-05-23T21:36:56+08:00 ] 58.247.206.146 /index.php?m=Home&c=Wechat&a=index&signature=e18200949e858ddb946a64c95035dcb655ad4372&timestamp=1464010616&nonce=409466719
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:36:59+08:00 ] 125.116.211.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-05-23T21:37:01+08:00 ] 125.116.211.1 /Home/Index/usermanual
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `vol_setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_setting` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-05-23T21:37:05+08:00 ] 125.116.211.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-05-23T21:37:08+08:00 ] 58.247.206.141 /index.php?m=Home&c=Wechat&a=index&signature=cf3d91e714d34f24acf05406349c7dbab4b9745f&timestamp=1464010628&nonce=370918910
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:37:11+08:00 ] 58.247.206.151 /index.php?m=Home&c=Wechat&a=index&signature=b95f40587744e29c0fd26853bb0491deba5f90a5&timestamp=1464010631&nonce=1546160999
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:37:11+08:00 ] 125.116.211.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='2016003' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='2016003' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-05-23T21:37:16+08:00 ] 58.247.206.146 /index.php?m=Home&c=Wechat&a=index&signature=d47db6336243631203ba14e1879da693eea63d74&timestamp=1464010636&nonce=519353312
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:37:31+08:00 ] 58.247.206.146 /index.php?m=Home&c=Wechat&a=index&signature=f58cc0972717a74bc15b8ce7d553129fb1c80747&timestamp=1464010651&nonce=1800570262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T21:38:03+08:00 ] 106.120.160.119 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-05-23T21:38:10+08:00 ] 220.181.132.197 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0007s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-05-23T21:39:11+08:00 ] 58.247.206.140 /index.php?m=Home&c=Wechat&a=index&signature=d1b39b482e9f887141aabc0bbf1897f71435a7b4&timestamp=1464010751&nonce=543321197
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/yigong/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
+[ 2016-05-23T23:20:50+08:00 ] 140.207.54.180 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-05-23T23:20:50+08:00 ] 101.226.125.19 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vol_restaurant_time` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant_time`  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `vol_active` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_active` ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_active_sign` [ RunTime:0.0004s ]
+SQL: SELECT SUM(number) AS tp_sum FROM `vol_active_sign` WHERE ( aid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Home/Controller/IndexController.class.php on line 23 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 26 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation` WHERE ( uid='' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+SQL: SHOW COLUMNS FROM `vol_restaurant` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_restaurant` WHERE ( uid='' and date='2016/05/24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 73 行.
+NOTIC: [8] Undefined index: uid /www/web/yigong/public_html/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 90 行.
+SQL: SELECT * FROM `vol_active_sign` WHERE ( aid='2' and uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+

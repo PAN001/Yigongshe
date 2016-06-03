@@ -1,0 +1,1809 @@
+[ 2016-06-03T03:13:32+08:00 ] 61.153.150.106 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-06-03T03:13:32+08:00 ] 61.153.150.106 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-06-03T03:13:32+08:00 ] 61.153.150.106 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-06-03T03:13:37+08:00 ] 61.153.150.106 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `vol_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_admin` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-06-03T03:13:38+08:00 ] 61.153.150.106 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/IndexController.class.php on line 6 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-06-03T03:13:42+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-06-03T03:14:05+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-06-03T03:14:11+08:00 ] 61.153.150.106 /Admin/Index/doconsult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto /www/web/yigong/public_html/SingKa/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `vol_consultation` SET `aid`='2016007',`adate`='2016-06-03' WHERE ( id='3' ) [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-06-03T03:14:13+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-06-03T03:14:21+08:00 ] 61.153.150.106 /Admin/Index/doconsult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto /www/web/yigong/public_html/SingKa/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `vol_consultation` SET `aid`='2016007',`adate`='2016-06-03' WHERE ( id='2' ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-06-03T03:14:22+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-06-03T03:15:19+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-06-03T03:15:47+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-06-03T03:15:52+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-06-03T03:15:54+08:00 ] 61.153.150.106 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/IndexController.class.php on line 6 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-06-03T03:15:57+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-06-03T03:16:36+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-06-03T03:16:59+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-06-03T03:17:23+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-06-03T03:17:50+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-06-03T03:21:28+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-06-03T03:21:58+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-06-03T03:22:05+08:00 ] 61.153.150.106 /Admin/Index/doconsult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto /www/web/yigong/public_html/SingKa/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `vol_consultation` SET `aid`='2016007',`adate`='2016-06-03' WHERE ( id='2' ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-06-03T03:22:07+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-06-03T03:22:17+08:00 ] 61.153.150.106 /Admin/Index/doconsult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto /www/web/yigong/public_html/SingKa/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `vol_consultation` SET `aid`='2016007',`adate`='2016-06-03' WHERE ( id='4' ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-06-03T03:22:18+08:00 ] 61.153.150.106 /Admin/Index/consult
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation` ORDER BY id DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016007' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016005' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016004' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( cid='1' and status='2' )  [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-06-03T06:23:39+08:00 ] 112.17.243.8 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-06-03T06:23:39+08:00 ] 112.17.243.8 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-06-03T06:23:39+08:00 ] 112.17.243.8 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-06-03T06:23:40+08:00 ] 180.153.214.178 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-06-03T06:23:40+08:00 ] 101.226.227.97 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003981s ]
+
+[ 2016-06-03T06:23:40+08:00 ] 101.226.227.97 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-06-03T06:23:40+08:00 ] 180.153.214.178 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003211s ]
+
+[ 2016-06-03T06:23:40+08:00 ] 101.226.227.97 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-06-03T06:23:40+08:00 ] 180.153.214.178 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-06-03T06:23:41+08:00 ] 180.153.214.192 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-06-03T06:23:41+08:00 ] 101.226.227.139 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-06-03T06:23:41+08:00 ] 180.153.163.191 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004563s ]
+
+[ 2016-06-03T06:23:41+08:00 ] 180.153.163.190 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-06-03T06:23:50+08:00 ] 112.17.243.8 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `vol_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_admin` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-06-03T06:23:52+08:00 ] 112.17.243.8 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/IndexController.class.php on line 6 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-06-03T06:23:57+08:00 ] 112.17.243.8 /Admin/Index/obligationtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-06-03T06:26:25+08:00 ] 112.17.243.8 /Admin/Index/dootype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: INSERT INTO `vol_obligation_type` (`title`,`content`) VALUES ('系统开发','开发并维护义工社互联网平台') [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-06-03T06:26:26+08:00 ] 112.17.243.8 /Admin/Index/obligationtype/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-06-03T06:26:27+08:00 ] 180.153.214.191 /Admin/Index/dootype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-06-03T06:26:27+08:00 ] 101.226.227.97 /Admin/Index/dootype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-06-03T06:26:27+08:00 ] 180.153.214.191 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-06-03T06:26:27+08:00 ] 101.226.227.97 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-06-03T06:26:27+08:00 ] 180.153.214.191 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-06-03T06:26:27+08:00 ] 101.226.227.97 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-06-03T06:26:36+08:00 ] 112.17.243.8 /Admin/Index/editotype/id/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: UPDATE `vol_obligation_type` SET `title`='义务类型一',`content`='义务简介一' WHERE ( id='1' ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-06-03T06:26:40+08:00 ] 112.17.243.8 /Admin/Index/obligationtype/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-06-03T06:27:37+08:00 ] 112.17.243.8 /Admin/Index/editotype/id/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0008s ]
+SQL: UPDATE `vol_obligation_type` SET `title`='系统开发',`content`='开发并维护义工社互联网平台' WHERE ( id='1' ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-06-03T06:27:38+08:00 ] 112.17.243.8 /Admin/Index/obligationtype/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-06-03T06:28:30+08:00 ] 112.17.243.8 /Admin/Index/editotype/id/2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: UPDATE `vol_obligation_type` SET `title`='视觉设计',`content`='设计及完善义工社视觉形象体系' WHERE ( id='2' ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-06-03T06:28:31+08:00 ] 112.17.243.8 /Admin/Index/obligationtype/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-06-03T06:28:32+08:00 ] 180.153.206.19 /Admin/Index/editotype/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-06-03T06:28:32+08:00 ] 101.226.227.141 /Admin/Index/editotype/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-06-03T06:28:32+08:00 ] 180.153.206.19 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-06-03T06:28:32+08:00 ] 101.226.227.141 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-06-03T06:28:32+08:00 ] 180.153.206.19 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-06-03T06:28:32+08:00 ] 101.226.227.141 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-06-03T06:29:42+08:00 ] 112.17.243.8 /Admin/Index/editotype/id/3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: UPDATE `vol_obligation_type` SET `title`='文案',`content`='设计并统一义工社文字表述体系' WHERE ( id='3' ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-06-03T06:29:43+08:00 ] 112.17.243.8 /Admin/Index/obligationtype/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-06-03T06:31:56+08:00 ] 112.17.243.8 /Admin/Index/editotype/id/4/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: UPDATE `vol_obligation_type` SET `title`='财务',`content`='记录日常收支，定期制作报表，制定财务制度，核实报销；' WHERE ( id='4' ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-06-03T06:31:58+08:00 ] 112.17.243.8 /Admin/Index/obligationtype/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-06-03T06:32:01+08:00 ] 112.17.243.8 /Admin/Index/editotype/id/4/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: UPDATE `vol_obligation_type` SET `title`='财务',`content`='记录日常收支，定期制作报表，制定财务制度，核实报销；' WHERE ( id='4' ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-06-03T06:32:05+08:00 ] 112.17.243.8 /Admin/Index/obligationtype/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-06-03T06:34:38+08:00 ] 112.17.243.8 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/IndexController.class.php on line 6 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-06-03T06:34:40+08:00 ] 112.17.243.8 /Admin/Index/consultationtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-06-03T06:36:07+08:00 ] 112.17.243.8 /Admin/Index/editctype/id/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: UPDATE `vol_consultation_type` SET `title`='家庭教育',`content`='解决家庭纠纷，促进家庭和谐；' WHERE ( id='1' ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-06-03T06:36:08+08:00 ] 112.17.243.8 /Admin/Index/consultationtype/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-06-03T06:36:10+08:00 ] 101.226.227.141 /Admin/Index/consultationtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-06-03T06:36:10+08:00 ] 180.153.163.211 /Admin/Index/consultationtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-06-03T06:36:10+08:00 ] 101.226.227.141 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-06-03T06:36:10+08:00 ] 180.153.163.211 /Admin/Logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-06-03T06:36:11+08:00 ] 101.226.227.141 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-06-03T06:36:11+08:00 ] 180.153.163.211 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-06-03T06:36:15+08:00 ] 112.17.243.8 /Admin/Index/editctype/id/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: UPDATE `vol_consultation_type` SET `title`='家庭教育',`content`='解决家庭纠纷，促进家庭和谐；' WHERE ( id='1' ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-06-03T06:36:19+08:00 ] 112.17.243.8 /Admin/Index/consultationtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-06-03T08:22:47+08:00 ] 121.42.0.34 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in /www/web/yigong/public_html/Application/Admin/Controller/LoginController.class.php on line 24 and defined /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content /www/web/yigong/public_html/SingKa/Library/Think/Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+

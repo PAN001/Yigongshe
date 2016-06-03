@@ -26,7 +26,7 @@
  <?php $uid=$consult['aid'];$m=M('user');$aprofile=$m->where("uid='$uid'")->find(); ?>
  <?php $id=$consult['cid'];$m=M('consultation_type');$type=$m->where("id='$id'")->find(); ?>
  <?php $cid=$consult['cid'];$m=M('intelapply');$intelapply=$m->where("cid='$cid' and status='2'")->select(); ?>
- <?php if((!isset($consult['aid']) || $consult['aid']=='') and ($consult['status']==0)): ?><div class="consult-p con-font con-color con-pd con-mb bgcolor-1">
+ <?php if((!isset($consult['aid']) || $consult['aid']=='' || $consult['aid']=='0') and ($consult['status']==0)): ?><div class="consult-p con-font con-color con-pd con-mb bgcolor-1">
   <table cellpadding="0" cellspacing="0" class="data-table">
      <tr><td>申请日期：<?php echo ($consult["date"]); ?></td><td>&nbsp;</td></tr>
      <tr><td>姓名：<?php echo ($profile["name"]); ?></td><td>状态：<span>待处理</span></td></tr>

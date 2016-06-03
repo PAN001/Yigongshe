@@ -1,0 +1,191 @@
+[ 2016-05-25T12:26:04+08:00 ] 121.42.0.36 /admin/images/menu-current-arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-05-25T12:26:06+08:00 ] 121.42.0.36 /admin/image/menu_h4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-05-25T12:26:10+08:00 ] 121.42.0.36 /admin/images/login/index_hz02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-05-25T12:26:10+08:00 ] 121.42.0.36 /admin/images/login/index_hz03.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-05-25T12:26:11+08:00 ] 121.42.0.36 /admin/images/cutimg/ccc.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-25T12:26:12+08:00 ] 121.42.0.36 /admin/images/admintitlebg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-05-25T12:26:13+08:00 ] 121.42.0.36 /Admin/Images/icon_lpdhjl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-05-25T12:26:14+08:00 ] 121.42.0.36 /Admin/Images/Icon-Nav-Close-over.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-05-25T12:26:15+08:00 ] 121.42.0.36 /admin/Tpl/default/ThemeFiles/Images/login/bg-interior-tile-drk.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-05-25T12:26:18+08:00 ] 121.42.0.36 /admin/images/tab_17.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-05-25T12:26:18+08:00 ] 121.42.0.36 /admin/images/top_tt_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-05-25T12:26:19+08:00 ] 121.42.0.36 /admin/images/login/login_submit.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-05-25T12:26:21+08:00 ] 121.42.0.36 /admin/images/netgather_com.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-05-25T12:26:25+08:00 ] 121.42.0.36 /admin/views/images/admindex_itembg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-05-25T12:26:25+08:00 ] 121.42.0.36 /admin/templates/met/images/logosmall.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-05-25T12:26:26+08:00 ] 121.42.0.36 /admin/ecshopfiles.md5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载控制器:Ecshopfiles
+
+[ 2016-05-25T12:26:26+08:00 ] 121.42.0.36 /admin/help/zh_cn/database.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载控制器:Help
+
+[ 2016-05-25T12:26:29+08:00 ] 121.42.0.36 /admin/Tpl/default/Common/images/blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-05-25T12:26:32+08:00 ] 121.42.0.36 /admin/images/admin_submit.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-05-25T12:26:35+08:00 ] 121.42.0.36 /admin/skins/images/ads_set3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-05-25T12:26:36+08:00 ] 121.42.0.36 /admin/images/loadingAnimation.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-05-25T12:26:38+08:00 ] 121.42.0.36 /Admin/Images/southidc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载控制器:Images
+
+[ 2016-05-25T12:26:40+08:00 ] 121.42.0.36 /admin/Images/del.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-05-25T12:26:40+08:00 ] 121.42.0.36 /Admin/Include/version.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载控制器:Include
+
+[ 2016-05-25T12:26:41+08:00 ] 121.42.0.36 /admin/images/arrow_right_8x8.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-05-25T12:26:42+08:00 ] 121.42.0.36 /Admin/images/houtaijs_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-05-25T12:26:42+08:00 ] 121.42.0.36 /Admin/images/install_logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-05-25T12:26:52+08:00 ] 121.42.0.36 /admin/Images/Login_tit.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-05-25T12:26:52+08:00 ] 121.42.0.36 /admin/Images/Sort_Folder_Close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-05-25T12:26:52+08:00 ] 121.42.0.36 /admin/Limages/left-corners.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-05-25T12:26:53+08:00 ] 121.42.0.36 /admin/images/li_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-05-25T12:26:53+08:00 ] 121.42.0.36 /admin/tpl/images/welcome_h1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-05-25T12:26:53+08:00 ] 121.42.0.36 /admin/images/bg-pay-return-success.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-05-25T12:26:54+08:00 ] 121.42.0.36 /admin/images/login_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-05-25T12:26:57+08:00 ] 121.42.0.36 /Admin/Images/bg_admin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+

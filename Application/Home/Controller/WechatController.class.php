@@ -154,7 +154,7 @@ class WechatController extends Controller{
                         break;
 
                     default:
-                        $wechat->replyText("欢迎访问晟嘉网络公众平台！您的事件类型：{$data['Event']}，EventKey：{$data['EventKey']}");
+                        $wechat->replyText("欢迎访问义工社微信公众平台！您的事件类型：{$data['Event']}，EventKey：{$data['EventKey']}");
                         break;
                 }
                 break;
@@ -216,7 +216,7 @@ class WechatController extends Controller{
                         break;
                     
                     default:
-                        $wechat->replyText("欢迎访问晟嘉网络公众平台！您输入的内容是：{$data['Content']}");
+                        $wechat->replyText("欢迎访问义工社微信公众平台！您输入的内容是：{$data['Content']}");
                         break;
                 }
                 break;

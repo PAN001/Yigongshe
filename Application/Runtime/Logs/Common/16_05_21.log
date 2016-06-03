@@ -1,0 +1,780 @@
+[ 2016-05-21T09:52:51+08:00 ] 121.42.0.30 /monitor/WEB-INF/web.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Monitor
+
+[ 2016-05-21T09:52:54+08:00 ] 121.42.0.30 /WEB-INF/web.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:WEB-INF
+
+[ 2016-05-21T09:53:10+08:00 ] 121.42.0.30 /zabbix/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Zabbix
+
+[ 2016-05-21T09:54:14+08:00 ] 121.42.0.30 /console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Console
+
+[ 2016-05-21T09:54:37+08:00 ] 121.42.0.30 /server-status/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 无法加载模块:Server-status
+
+[ 2016-05-21T10:01:25+08:00 ] 121.42.0.30 /index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Index
+
+[ 2016-05-21T10:05:46+08:00 ] 121.42.0.30 /jenkins/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Jenkins
+
+[ 2016-05-21T10:08:45+08:00 ] 121.42.0.30 /cacti/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Cacti
+
+[ 2016-05-21T10:08:59+08:00 ] 121.42.0.30 /axis2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Axis2
+
+[ 2016-05-21T10:09:41+08:00 ] 121.42.0.30 /examples/servlets/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Examples
+
+[ 2016-05-21T10:09:45+08:00 ] 121.42.0.30 /examples/jsp/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Examples
+
+[ 2016-05-21T10:09:49+08:00 ] 121.42.0.30 /.git/config
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:.git
+
+[ 2016-05-21T10:09:51+08:00 ] 121.42.0.30 /.git/config
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:.git
+
+[ 2016-05-21T10:09:53+08:00 ] 121.42.0.30 /.svn/entries
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:.svn
+
+[ 2016-05-21T10:09:57+08:00 ] 121.42.0.30 /.svn/entries
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:.svn
+
+[ 2016-05-21T10:10:12+08:00 ] 121.42.0.30 /phpRedisAdmin/?overview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:PhpRedisAdmin
+
+[ 2016-05-21T10:10:14+08:00 ] 121.42.0.30 /hudson/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Hudson
+
+[ 2016-05-21T10:10:25+08:00 ] 121.42.0.30 /solr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Solr
+
+[ 2016-05-21T10:12:30+08:00 ] 121.42.0.30 /phpsysinfo/index.php?disp=dynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Phpsysinfo
+
+[ 2016-05-21T10:12:57+08:00 ] 121.42.0.30 /phpsysinfo/index.php?disp=dynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Phpsysinfo
+
+[ 2016-05-21T10:13:07+08:00 ] 121.42.0.30 /'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:'"
+
+[ 2016-05-21T10:13:15+08:00 ] 121.42.0.30 /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:13:25+08:00 ] 121.42.0.30 /%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:13:33+08:00 ] 121.42.0.30 /'%22/%3E%3C/script%3E%3Cscript%3Ealert()%3C/script%3E/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:'"
+
+[ 2016-05-21T10:13:48+08:00 ] 121.42.0.30 /%27%22%2f%3E%3C%2fscript%3E%3Cscript%3Ealert%28%29%3C%2fscript%3E/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:13:58+08:00 ] 121.42.0.30 /%2527%2522%252f%253E%253C%252fscript%253E%253Cscript%253Ealert%2528%2529%253C%252fscript%253E/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:14:06+08:00 ] 121.42.0.30 /'%22+onmouseover=alert()+d='%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:'"+onmouseover=alert()+d='"
+
+[ 2016-05-21T10:14:13+08:00 ] 121.42.0.30 /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:'" onmouseover=alert() d='"
+
+[ 2016-05-21T10:14:15+08:00 ] 121.42.0.30 /%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:'" onmouseover=alert() d='"
+
+[ 2016-05-21T10:14:22+08:00 ] 121.42.0.30 /'%22+onmouseover=alert()+d='%22/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:'"+onmouseover=alert()+d='"
+
+[ 2016-05-21T10:14:34+08:00 ] 121.42.0.30 /%27%22%20onmouseover%3Dalert%28%29%20d%3D%27%22/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:'" onmouseover=alert() d='"
+
+[ 2016-05-21T10:14:37+08:00 ] 121.42.0.30 /%2527%2522%2520onmouseover%253Dalert%2528%2529%2520d%253D%2527%2522/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:'" onmouseover=alert() d='"
+
+[ 2016-05-21T10:14:42+08:00 ] 121.42.0.30 /'%22+style=x:expression(alert())+d='%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:'"+style=x:expression(alert())+d='"
+
+[ 2016-05-21T10:14:44+08:00 ] 121.42.0.30 /%27%22%20style%3dx%3Aexpression%28alert%28%29%29%20d%3D%27%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:'" style=x:expression(alert()) d='"
+
+[ 2016-05-21T10:14:49+08:00 ] 121.42.0.30 /%2527%2522%2520style%253dx%253Aexpression%2528alert%2528%2529%2529%2520d%253D%2527%2522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:'" style=x:expression(alert()) d='"
+
+[ 2016-05-21T10:14:59+08:00 ] 121.42.0.30 /'%22+style=x:expression(alert())+d='%22/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:'"+style=x:expression(alert())+d='"
+
+[ 2016-05-21T10:15:01+08:00 ] 121.42.0.30 /%27%22%20style%3dx%3Aexpression%28alert%28%29%29%20d%3D%27%22/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:'" style=x:expression(alert()) d='"
+
+[ 2016-05-21T10:15:06+08:00 ] 121.42.0.30 /%2527%2522%2520style%253dx%253Aexpression%2528alert%2528%2529%2529%2520d%253D%2527%2522/?.tmp=t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:'" style=x:expression(alert()) d='"
+
+[ 2016-05-21T10:15:11+08:00 ] 121.42.0.30 /www/admin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Www
+
+[ 2016-05-21T10:15:17+08:00 ] 121.42.0.30 /.bzr/branch-format
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:.bzr
+
+[ 2016-05-21T10:15:19+08:00 ] 121.42.0.30 /.bzr/branch-format
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:.bzr
+
+[ 2016-05-21T10:15:22+08:00 ] 121.42.0.30 /bin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Bin
+
+[ 2016-05-21T10:15:25+08:00 ] 121.42.0.30 /bin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Bin
+
+[ 2016-05-21T10:15:27+08:00 ] 121.42.0.30 /downloads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:Downloads
+
+[ 2016-05-21T10:15:29+08:00 ] 121.42.0.30 /downloads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Downloads
+
+[ 2016-05-21T10:15:32+08:00 ] 121.42.0.30 /download/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Download
+
+[ 2016-05-21T10:15:34+08:00 ] 121.42.0.30 /download/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Download
+
+[ 2016-05-21T10:15:47+08:00 ] 121.42.0.30 /uc_server/uctools.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Uc_server
+
+[ 2016-05-21T10:15:50+08:00 ] 121.42.0.30 /uc_server/uctools.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Uc_server
+
+[ 2016-05-21T10:15:52+08:00 ] 121.42.0.30 /CVS/Root
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:CVS
+
+[ 2016-05-21T10:15:54+08:00 ] 121.42.0.30 /CVS/Root
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:CVS
+
+[ 2016-05-21T10:15:57+08:00 ] 121.42.0.30 /.hg/requires
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:.hg
+
+[ 2016-05-21T10:15:59+08:00 ] 121.42.0.30 /.hg/requires
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:.hg
+
+[ 2016-05-21T10:16:07+08:00 ] 121.42.0.30 /uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-21T10:16:13+08:00 ] 121.42.0.30 /uploads/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-05-21T10:16:15+08:00 ] 121.42.0.30 /backup/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Backup
+
+[ 2016-05-21T10:16:17+08:00 ] 121.42.0.30 /backup/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Backup
+
+[ 2016-05-21T10:16:33+08:00 ] 121.42.0.30 /web/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Web
+
+[ 2016-05-21T10:17:01+08:00 ] 121.42.0.30 /web/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Web
+
+[ 2016-05-21T10:17:03+08:00 ] 121.42.0.30 /uploadfiles/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 无法加载模块:Uploadfiles
+
+[ 2016-05-21T10:17:06+08:00 ] 121.42.0.30 /uploadfiles/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Uploadfiles
+
+[ 2016-05-21T10:17:08+08:00 ] 121.42.0.30 /uploadfile/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Uploadfile
+
+[ 2016-05-21T10:17:11+08:00 ] 121.42.0.30 /uploadfile/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Uploadfile
+
+[ 2016-05-21T10:17:14+08:00 ] 121.42.0.30 /upfiles/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Upfiles
+
+[ 2016-05-21T10:17:17+08:00 ] 121.42.0.30 /upfiles/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Upfiles
+
+[ 2016-05-21T10:17:19+08:00 ] 121.42.0.30 /upfile/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Upfile
+
+[ 2016-05-21T10:17:22+08:00 ] 121.42.0.30 /upfile/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Upfile
+
+[ 2016-05-21T10:17:31+08:00 ] 121.42.0.30 /htdocs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Htdocs
+
+[ 2016-05-21T10:17:36+08:00 ] 121.42.0.30 /htdocs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Htdocs
+
+[ 2016-05-21T10:17:39+08:00 ] 121.42.0.30 /WebResource.axd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:WebResource
+
+[ 2016-05-21T10:17:59+08:00 ] 121.42.0.30 /WebResource.axd?d=LENSTEST&t=LENSTEST
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:WebResource
+
+[ 2016-05-21T10:18:10+08:00 ] 121.42.0.30 /upload/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Upload
+
+[ 2016-05-21T10:18:43+08:00 ] 121.42.0.30 /upload/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Upload
+
+[ 2016-05-21T10:19:10+08:00 ] 121.42.0.30 /db/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Db
+
+[ 2016-05-21T10:20:24+08:00 ] 121.42.0.30 /db/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:Db
+
+[ 2016-05-21T10:20:30+08:00 ] 121.42.0.30 /log/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Log
+
+[ 2016-05-21T10:20:36+08:00 ] 121.42.0.30 /log/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Log
+
+[ 2016-05-21T10:20:54+08:00 ] 121.42.0.30 /logs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Logs
+
+[ 2016-05-21T10:20:57+08:00 ] 121.42.0.30 /logs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Logs
+
+[ 2016-05-21T10:21:00+08:00 ] 121.42.0.30 /config/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Config
+
+[ 2016-05-21T10:21:03+08:00 ] 121.42.0.30 /config/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Config
+
+[ 2016-05-21T10:21:06+08:00 ] 121.42.0.30 /jmx-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Jmx-console
+
+[ 2016-05-21T10:21:09+08:00 ] 121.42.0.30 /web-console/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Web-console
+
+[ 2016-05-21T10:21:16+08:00 ] 121.42.0.30 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Robots
+
+[ 2016-05-21T10:21:18+08:00 ] 121.42.0.30 /bigdump.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Bigdump
+
+[ 2016-05-21T10:21:21+08:00 ] 121.42.0.30 /cgi-bin/authlogin.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:21:26+08:00 ] 121.42.0.30 /cgi-bin/it.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:21:31+08:00 ] 121.42.0.30 /cgi-sys/defaultwebpage.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Cgi-sys
+
+[ 2016-05-21T10:21:34+08:00 ] 121.42.0.30 /cgi-sys/FormMail-clone.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Cgi-sys
+
+[ 2016-05-21T10:21:50+08:00 ] 121.42.0.30 /xampp/cgi.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Xampp
+
+[ 2016-05-21T10:21:53+08:00 ] 121.42.0.30 /index.php?m=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Public
+
+[ 2016-05-21T10:22:10+08:00 ] 121.42.0.30 /adminer.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Adminer
+
+[ 2016-05-21T10:22:13+08:00 ] 121.42.0.30 /adminer.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Adminer
+
+[ 2016-05-21T10:22:22+08:00 ] 121.42.0.30 /phpinfo.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Phpinfo
+
+[ 2016-05-21T10:22:25+08:00 ] 121.42.0.30 /info.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Info
+
+[ 2016-05-21T10:22:28+08:00 ] 121.42.0.30 /php.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Php
+
+[ 2016-05-21T10:22:32+08:00 ] 121.42.0.30 /test.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Test
+
+[ 2016-05-21T10:22:34+08:00 ] 121.42.0.30 /show.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Show
+
+[ 2016-05-21T10:22:40+08:00 ] 121.42.0.30 /a.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:A
+
+[ 2016-05-21T10:22:43+08:00 ] 121.42.0.30 /1.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:1
+
+[ 2016-05-21T10:22:46+08:00 ] 121.42.0.30 /u.php?act=phpinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:U
+
+[ 2016-05-21T10:22:49+08:00 ] 121.42.0.30 /l.php?act=phpinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:L
+
+[ 2016-05-21T10:22:52+08:00 ] 121.42.0.30 /tz.php?act=phpinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:Tz
+
+[ 2016-05-21T10:22:55+08:00 ] 121.42.0.30 /app/dev/svinfo.php?phpinfo=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:App
+
+[ 2016-05-21T10:22:57+08:00 ] 121.42.0.30 /install/svinfo.php?phpinfo=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Install
+
+[ 2016-05-21T10:23:00+08:00 ] 121.42.0.30 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-05-21T10:23:02+08:00 ] 121.42.0.30 /data/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Data
+
+[ 2016-05-21T10:23:08+08:00 ] 121.42.0.30 /data/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Data
+
+[ 2016-05-21T10:23:31+08:00 ] 121.42.0.30 /%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2fetc%2fpasswd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:23:34+08:00 ] 121.42.0.30 /%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2f%c0%ae%c0%ae%2fwindows%2Fwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:23:35+08:00 ] 121.42.0.30 /..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%afetc%c0%afpasswd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:..��..��..��..��..��..��..��.
+
+[ 2016-05-21T10:23:39+08:00 ] 121.42.0.30 /..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%afwindows%c0%afwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:..��..��..��..��..��..��..��..��windows��win
+
+[ 2016-05-21T10:23:41+08:00 ] 121.42.0.30 /%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:����
+
+[ 2016-05-21T10:24:19+08:00 ] 121.42.0.30 /%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:����
+
+[ 2016-05-21T10:24:31+08:00 ] 121.42.0.30 /%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2fetc%2fpasswd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:24:42+08:00 ] 121.42.0.30 /%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2f%5c%2e%2e%2fwindows%2Fwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Errpage
+
+[ 2016-05-21T10:25:19+08:00 ] 121.42.0.30 /manager/html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Manager
+
+[ 2016-05-21T10:25:32+08:00 ] 121.42.0.30 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Wp-login
+
+[ 2016-05-21T10:31:19+08:00 ] 121.42.0.30 /j_acegi_security_check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:J_acegi_security_check
+
+[ 2016-05-21T10:33:10+08:00 ] 121.42.0.30 /zabbix/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Zabbix
+
+[ 2016-05-21T10:34:58+08:00 ] 121.42.0.30 /axis2/axis2-admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:Axis2
+
+[ 2016-05-21T10:35:24+08:00 ] 121.42.0.30 /phpmyadmin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2016-05-21T10:35:35+08:00 ] 121.42.0.30 /phpMyAdmin/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2016-05-21T10:35:44+08:00 ] 121.42.0.30 /pma/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Pma
+
+[ 2016-05-21T10:35:52+08:00 ] 121.42.0.30 /pmd/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 无法加载模块:Pmd
+
+[ 2016-05-21T10:36:03+08:00 ] 121.42.0.30 /phpmyadmin/main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2016-05-21T10:36:10+08:00 ] 121.42.0.30 /phpMyAdmin/main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:PhpMyAdmin
+
+[ 2016-05-21T10:36:21+08:00 ] 121.42.0.30 /pma/main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载模块:Pma
+
+[ 2016-05-21T10:38:16+08:00 ] 121.42.0.30 /pmd/main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Pmd
+
+[ 2016-05-21T10:41:11+08:00 ] 121.42.0.30 /blog/wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载模块:Blog
+

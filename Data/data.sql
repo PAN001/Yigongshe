@@ -19,7 +19,7 @@ CREATE TABLE `vol_active` (
 
 INSERT INTO `vol_active` (`id`, `allnumber`, `usertype`, `integral`, `usernumber`, `date`, `content`) VALUES
 (1,	50,	1,	10,	2,	'2016-04-11',	'这是一个母婴相关的调查，欢迎新老用户积极参与。调查问卷开头，设有个人属性调查选项，请认真作答。'),
-(2,	5,	0,	10,	2,	'2016-04-17',	'这是一个母婴相关的调查，欢迎新老用户积极参与。调查问卷开头，设有个人属性调查选项，请认真作答。');
+(2,	5,	0,	0,	0,	'2016-04-17',	'这是一个母婴相关的调查，欢迎新老用户积极参与。调查问卷开头，设有个人属性调查选项，请认真作答。');
 
 DROP TABLE IF EXISTS `vol_active_sign`;
 CREATE TABLE `vol_active_sign` (
@@ -30,6 +30,8 @@ CREATE TABLE `vol_active_sign` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='活动报名表';
 
+INSERT INTO `vol_active_sign` (`id`, `aid`, `uid`, `number`) VALUES
+(1,	2,	2016007,	2);
 
 DROP TABLE IF EXISTS `vol_admin`;
 CREATE TABLE `vol_admin` (
@@ -54,7 +56,10 @@ CREATE TABLE `vol_article` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='文章信息表';
 
 INSERT INTO `vol_article` (`id`, `title`, `date`, `url`, `thumb`) VALUES
-(1,	'欢迎关注 义工社',	'2016-05-04 04:03:21',	'https://mp.weixin.qq.com/s?__biz=MzIwMDA5Mjg5OA==&mid=210094735&idx=1&sn=c52cd3a3f4e2d7e858df3cb823a54058&key=b28b03434249256bd76e9f02b675d61681c30e41b45b199247b8e6d235319e8ce1c3aea3c384cea00f9ce1de8c0120af&ascene=1&uin=MTQ1Mjk2NjM1&devicetype=Windows-QQBrowser&version=61030003&pass_ticket=Y2XhRFE%2',	'http://mmbiz.qpic.cn/mmbiz/nRjcP23y2CMYO1UnyM3ZWMicHiav6OUdHDiaB6FGzhQCGl6y0gicCO8G2JqAALibkU3s4j0yd7oWrrkfx3XgQYFbYjA/640?wx_fmt=jpeg&tp=webp&wxfrom=5');
+(1,	'欢迎关注 义工社',	'2016-05-04 04:03:21',	'https://mp.weixin.qq.com/s?__biz=MzIwMDA5Mjg5OA==&mid=210094735&idx=1&sn=c52cd3a3f4e2d7e858df3cb823a54058&key=b28b03434249256bd76e9f02b675d61681c30e41b45b199247b8e6d235319e8ce1c3aea3c384cea00f9ce1de8c0120af&ascene=1&uin=MTQ1Mjk2NjM1&devicetype=Windows-QQBrowser&version=61030003&pass_ticket=Y2XhRFE%2',	'http://freshman.91ibang.com/Data/Uploads/Photo/Freshman/2016-05-11/57322d2d54469.jpg'),
+(2,	'宁波鄞州万达广场',	'2016-06-01 15:38:53',	'http://freshman.91ibang.com/Index/details/id/3',	'http://freshman.91ibang.com/Data/Uploads/Photo/Freshman/2016-05-10/5731d6a8386ad.jpg'),
+(3,	'大学新生常见心理问题及应对办法',	'2016-06-01 15:43:19',	'http://freshman.91ibang.com/Index/details/id/45',	'http://static.91ibang.com/Template/freshman/img/img3.jpg'),
+(4,	'大学生最应该读的书有哪些',	'2016-06-01 15:43:59',	'http://freshman.91ibang.com/Index/details/id/40',	'http://static.91ibang.com/Template//freshman/img/img5.jpg');
 
 DROP TABLE IF EXISTS `vol_consultation`;
 CREATE TABLE `vol_consultation` (
@@ -69,6 +74,11 @@ CREATE TABLE `vol_consultation` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='问题咨询表';
 
+INSERT INTO `vol_consultation` (`id`, `uid`, `cid`, `content`, `date`, `aid`, `adate`, `status`) VALUES
+(1,	2016005,	1,	'教育',	'2016-05-26',	2016004,	'2016-05-26',	1),
+(2,	2016005,	1,	'教育',	'2016-05-26',	2016007,	'2016-06-03',	1),
+(3,	2016007,	1,	'我们在干嘛呀',	'2016-06-01',	2016007,	'2016-06-03',	2),
+(4,	2016007,	1,	'我们的爱啊',	'2016-06-03',	2016007,	'2016-06-03',	2);
 
 DROP TABLE IF EXISTS `vol_consultation_type`;
 CREATE TABLE `vol_consultation_type` (
@@ -79,10 +89,11 @@ CREATE TABLE `vol_consultation_type` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='咨询类型表';
 
 INSERT INTO `vol_consultation_type` (`id`, `title`, `content`) VALUES
-(1,	'咨询类型一',	'咨询简介一'),
+(1,	'家庭教育',	'解决家庭纠纷，促进家庭和谐；'),
 (2,	'咨询类型二',	'咨询简介二'),
 (3,	'咨询类型三',	'咨询简介三'),
-(4,	'咨询类型四',	'咨询简介四');
+(4,	'咨询类型四',	'咨询简介四'),
+(5,	'家庭教育',	'');
 
 DROP TABLE IF EXISTS `vol_finance`;
 CREATE TABLE `vol_finance` (
@@ -119,7 +130,20 @@ CREATE TABLE `vol_integral_record` (
 INSERT INTO `vol_integral_record` (`id`, `uid`, `tid`, `income`, `expenditure`, `reason`, `date`) VALUES
 (1,	2016002,	0,	'1',	NULL,	'资金',	'2016-05-19'),
 (2,	2016002,	0,	'1',	NULL,	'资金',	'2016-05-19'),
-(3,	2016003,	0,	'10',	NULL,	'资金',	'2016-05-19');
+(3,	2016003,	0,	'10',	NULL,	'资金',	'2016-05-19'),
+(4,	2016001,	0,	'5',	NULL,	'资金',	'2016-05-20'),
+(5,	2016004,	0,	'1',	NULL,	'资金',	'2016-05-26'),
+(6,	2016004,	0,	'1',	NULL,	'资金',	'2016-05-26'),
+(7,	2016005,	0,	'1',	NULL,	'资金',	'2016-05-26'),
+(8,	2016006,	0,	'1',	NULL,	'资金',	'2016-05-26'),
+(9,	2016006,	0,	'1',	NULL,	'资金',	'2016-05-26'),
+(10,	2016009,	0,	'1',	NULL,	'资金',	'2016-06-01'),
+(11,	2016008,	0,	'1',	NULL,	'资金',	'2016-06-01'),
+(12,	2016008,	0,	'1',	NULL,	'资金',	'2016-06-01'),
+(13,	2016007,	0,	'5',	NULL,	'资金',	'2016-06-01'),
+(14,	2016010,	0,	'10000',	NULL,	'资金',	'2016-06-01'),
+(15,	2016010,	0,	'10000',	NULL,	'资金',	'2016-06-01'),
+(16,	2016007,	0,	'5',	NULL,	'资金',	'2016-06-01');
 
 DROP TABLE IF EXISTS `vol_intelapply`;
 CREATE TABLE `vol_intelapply` (
@@ -163,9 +187,12 @@ CREATE TABLE `vol_intelapply` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='智慧支持申请';
 
 INSERT INTO `vol_intelapply` (`uid`, `oid`, `cid`, `content`, `one`, `two`, `three`, `four`, `five`, `six`, `seven`, `eight`, `nine`, `ten`, `eleven`, `twelve`, `thirteen`, `fourteen`, `fifteen`, `sixteen`, `seventeen`, `eighteen`, `nineteen`, `twentyone`, `twentyweo`, `twentythree`, `twentyfour`, `twentyfive`, `twentysix`, `twentyseven`, `twentyeight`, `twentynine`, `twentyten`, `thirty`, `thirtyone`, `date`, `status`) VALUES
-(2016002,	1,	0,	'',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'seven',	NULL,	NULL,	NULL,	'eleven',	NULL,	NULL,	'fourteen',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'2016-05-19',	2),
-(2016002,	1,	0,	'',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'seven',	NULL,	NULL,	NULL,	'eleven',	NULL,	NULL,	'fourteen',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'2016-05-19',	2),
-(2016003,	1,	0,	'',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'nine',	NULL,	'eleven',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'2016-05-19',	2);
+(2016002,	1,	3,	'',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'seven',	NULL,	NULL,	NULL,	'eleven',	NULL,	NULL,	'fourteen',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'2016-05-19',	2),
+(2016003,	1,	2,	'',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'nine',	NULL,	'eleven',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'2016-05-19',	2),
+(2016001,	1,	3,	'我是好人',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'eleven',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'eighteen',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'twentyeight',	NULL,	NULL,	NULL,	NULL,	'2016-05-20',	2),
+(2016004,	1,	1,	'',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'nine',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'2016-05-26',	2),
+(2016005,	1,	1,	'1',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'ten',	NULL,	NULL,	'thirteen',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	'2016-05-26',	2),
+(2016007,	2,	1,	'我想做一名优秀的义工。你觉得可以嘛？',	'one',	'two',	NULL,	'four',	NULL,	'six',	NULL,	'eight',	NULL,	'ten',	NULL,	NULL,	NULL,	NULL,	NULL,	'sixteen',	'seventeen',	NULL,	'nineteen',	'twentyone',	NULL,	'twentythree',	NULL,	'twentyfive',	NULL,	NULL,	'twentyeight',	NULL,	NULL,	'thirty',	'thirtyone',	'2016-06-01',	2);
 
 DROP TABLE IF EXISTS `vol_obligation`;
 CREATE TABLE `vol_obligation` (
@@ -178,6 +205,10 @@ CREATE TABLE `vol_obligation` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='义务信息表';
 
+INSERT INTO `vol_obligation` (`id`, `cid`, `content`, `uid`, `date`, `status`) VALUES
+(1,	1,	'去打扫卫生院',	'2016007',	'2016-06-03',	1),
+(2,	2,	'去捐款给灾区小孩1000圆整',	'2016007',	'2016-06-03',	2),
+(3,	3,	'今天去参观考察一些产地',	'2016007',	'2016-06-03',	2);
 
 DROP TABLE IF EXISTS `vol_obligation_type`;
 CREATE TABLE `vol_obligation_type` (
@@ -188,9 +219,10 @@ CREATE TABLE `vol_obligation_type` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='义务类型表';
 
 INSERT INTO `vol_obligation_type` (`id`, `title`, `content`) VALUES
-(1,	'义务类型一',	'义务简介一'),
-(2,	'义务类型二',	'义务简介二'),
-(3,	'义务类型三',	'义务简介三');
+(1,	'系统开发',	'开发并维护义工社互联网平台'),
+(2,	'视觉设计',	'设计及完善义工社视觉形象体系'),
+(3,	'文案',	'设计并统一义工社文字表述体系'),
+(4,	'财务',	'记录日常收支，定期制作报表，制定财务制度，核实报销；');
 
 DROP TABLE IF EXISTS `vol_restaurant`;
 CREATE TABLE `vol_restaurant` (
@@ -204,7 +236,8 @@ CREATE TABLE `vol_restaurant` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='工社餐饮表';
 
 INSERT INTO `vol_restaurant` (`id`, `uid`, `tid`, `date`, `number`, `status`) VALUES
-(1,	2016001,	2,	'2016-05-19',	'2',	0);
+(1,	2016001,	2,	'2016-05-19',	'2',	0),
+(2,	2016007,	1,	'2016-06-02',	'2',	0);
 
 DROP TABLE IF EXISTS `vol_restaurant_time`;
 CREATE TABLE `vol_restaurant_time` (
@@ -238,9 +271,20 @@ CREATE TABLE `vol_sup_money` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='资金支持表';
 
 INSERT INTO `vol_sup_money` (`id`, `uid`, `price`, `date`, `status`) VALUES
-(1,	2016001,	'5',	'2016-05-18',	1),
+(1,	2016001,	'5',	'2016-05-18',	2),
 (2,	2016002,	'1',	'2016-05-19',	2),
-(3,	2016003,	'10',	'2016-05-19',	2);
+(3,	2016003,	'10',	'2016-05-19',	2),
+(4,	2016004,	'1',	'2016-05-26',	2),
+(5,	2016005,	'1',	'2016-05-26',	2),
+(6,	2016006,	'1',	'2016-05-26',	2),
+(7,	2016007,	'5',	'2016-05-30',	2),
+(8,	2016008,	'1',	'2016-06-01',	2),
+(9,	2016009,	'1',	'2016-06-01',	2),
+(10,	2016010,	'10000',	'2016-06-01',	2),
+(11,	2016007,	'5',	'2016-06-01',	2),
+(12,	2016007,	'5',	'2016-06-01',	2),
+(13,	2016007,	'5',	'2016-06-01',	2),
+(14,	2016011,	'1',	'2016-06-02',	1);
 
 DROP TABLE IF EXISTS `vol_sup_other`;
 CREATE TABLE `vol_sup_other` (
@@ -254,7 +298,10 @@ CREATE TABLE `vol_sup_other` (
 
 INSERT INTO `vol_sup_other` (`id`, `uid`, `content`, `date`, `status`) VALUES
 (1,	2016002,	'很丰富f',	'2016-05-19',	2),
-(2,	2016002,	'很丰富f',	'2016-05-19',	1);
+(2,	2016002,	'很丰富f',	'2016-05-19',	1),
+(3,	2016010,	'',	'2016-06-01',	1),
+(4,	2016008,	'',	'2016-06-01',	1),
+(5,	2016007,	'茶叶一盒',	'2016-06-01',	2);
 
 DROP TABLE IF EXISTS `vol_sup_other_type`;
 CREATE TABLE `vol_sup_other_type` (
@@ -290,9 +337,17 @@ CREATE TABLE `vol_user` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='用户列表';
 
 INSERT INTO `vol_user` (`uid`, `openid`, `avatar`, `name`, `mobile`, `sex`, `birth`, `joindate`, `rmobile`, `score`, `type`, `address`, `status`, `financeauth`, `comparison`, `support`) VALUES
-(2016001,	'o4oq9vjvanLVtnUxwXKRpf6E45J0',	'http://wx.qlogo.cn/mmopen/FqoqEHvgIuL99hOqWDAxM1icOAzJ2sSkfC6Esd7etYWBJpibSaIlhL0Nsn2FEfgiaicVs2lLmiaUkqH4q5VU0N6fNGGVtOtBxBaNw/0',	'夏晓强',	'17757863353',	1,	'1990-05-18',	'2016-05-18',	'18858002358',	'0',	0,	'宁波市鄞州区首南街道钱湖南路8号',	0,	0,	0,	1),
-(2016002,	'o4oq9vlrOu6tL41Wilird-cruVpI',	'http://wx.qlogo.cn/mmopen/FqoqEHvgIuLbRlhH1UZDHb06mibqyu2xhkLNSq827uA4G67mmWP5g6vQKibn0kic0l5kSv08fD9F6SMs5ceDzIZeQ/0',	'毛远',	'13819801110',	1,	'1980-11-10',	'2016-05-19',	'17757863353',	'2',	0,	'宁波',	0,	0,	0,	1),
-(2016003,	'o4oq9vspS4_9aw05quh05NECOXcU',	'http://wx.qlogo.cn/mmopen/PiajxSqBRaEJp4BW1UydINRymKI5rpibeGh3R6BjOK1qynDJraZ46QPzQ6f29qYWibBcl0GGibccRWPcAd7z0BbBibQ/0',	'毛南瑾',	'18858237143',	0,	'2013-01-28',	'2016-05-19',	'13819801110',	'10',	0,	'宁波',	0,	0,	0,	1);
+(2016001,	'o4oq9vjvanLVtnUxwXKRpf6E45J0',	'http://wx.qlogo.cn/mmopen/FqoqEHvgIuL99hOqWDAxM1icOAzJ2sSkfC6Esd7etYWBJpibSaIlhL0Nsn2FEfgiaicVs2lLmiaUkqH4q5VU0N6fNGGVtOtBxBaNw/0',	'夏晓强',	'17757863353',	1,	'1990-05-18',	'2016-05-18',	'18858002358',	'5',	0,	'宁波市鄞州区首南街道钱湖南路8号',	2,	0,	1,	1),
+(2016002,	'o4oq9vlrOu6tL41Wilird-cruVpI',	'http://wx.qlogo.cn/mmopen/FqoqEHvgIuLbRlhH1UZDHb06mibqyu2xhkLNSq827uA4G67mmWP5g6vQKibn0kic0l5kSv08fD9F6SMs5ceDzIZeQ/0',	'毛远',	'13819801110',	1,	'1980-11-10',	'2016-05-19',	'17757863353',	'2',	0,	'宁波',	0,	1,	0,	1),
+(2016003,	'o4oq9vspS4_9aw05quh05NECOXcU',	'http://wx.qlogo.cn/mmopen/PiajxSqBRaEJp4BW1UydINRymKI5rpibeGh3R6BjOK1qynDJraZ46QPzQ6f29qYWibBcl0GGibccRWPcAd7z0BbBibQ/0',	'毛南瑾',	'18858237143',	0,	'2013-01-28',	'2016-05-19',	'13819801110',	'10',	0,	'宁波',	0,	1,	0,	1),
+(2016004,	'o4oq9vp5gsAcROkDPg9TSlQuiECI',	'http://wx.qlogo.cn/mmopen/hib3saPibXQjTdVFoJiaxj4YKztwibb07QnojCv9XBZozCQiaxibg5luWQZcqgcpwheg4vTje5RyO4u7DB8RQiaicrrymU2ZwyRticHfX/0',	'潘奕尘',	'13857810767',	1,	'2016-05-26',	'2016-05-26',	'13819801110',	'2',	0,	'00',	0,	0,	0,	1),
+(2016005,	'o4oq9vvWuBauCEBflBVrYNZj6C_4',	'http://wx.qlogo.cn/mmopen/PiajxSqBRaEJtGk9WuZ9j7UDcT7r8OOAsYZbia3tjN0b4oAEFOlic2QKZuem8clIGJJl31ZribdtqeEoBdmlwzEcFg/0',	'王世航',	'15602063165',	1,	'1994-07-08',	'2016-05-26',	'13819801110',	'1',	0,	'诺丁汉大学',	0,	0,	0,	1),
+(2016006,	'o4oq9vqBzVXC-kec_KPmtqqbaSz4',	'http://wx.qlogo.cn/mmopen/ajNVdqHZLLBSa5icEpaLFNwiauhJzT3ibYnNaPWb0CJU3ibxTq4cCrvkz41JpToqTVOYOtaRkaX8V3mTGZkSGv76pQ/0',	'许兆亮',	'13857857519',	1,	'1995-02-12',	'2016-05-26',	'13819801110',	'2',	0,	'宁波诺丁汉大学',	0,	0,	0,	1),
+(2016007,	'o4oq9vrth6xoOukHedv5iQtqTbs8',	'http://wx.qlogo.cn/mmopen/ajNVdqHZLLD0Z0Ksut3uvXWYNovOJGRoJaz6unyg4Ml56oNF8CNvZdnUZP5ROHlkCicGibkewlcjKA5ic5LTt0puQ/0',	'夏慧新',	'18858002358',	1,	'2016-05-30',	'2016-06-03',	'18858002358',	'10',	1,	'浙江省宁波市鄞州区首南街道钱湖南路1号',	0,	1,	0,	3),
+(2016008,	'o4oq9vhrsqmzkyIm1EMpvKbvHq2E',	'http://wx.qlogo.cn/mmopen/JoWyCnQKNwNpUFtq6BWYxNladjgN80yt4jAmGd90jcz5jhiaic5QiaufUZpsP4iaHRVIeVXbV6kCtQqHSfuKBOTJ8NdCmoqLlAGZ/0',	'曲玉',	'13777110561',	0,	'2016-06-01',	'2016-06-01',	'13819801110',	'2',	0,	'宁波诺丁汉大学',	0,	0,	0,	1),
+(2016009,	'o4oq9vuxd39Q6zJ7dCdoQIlMyFCs',	'http://wx.qlogo.cn/mmopen/FqoqEHvgIuLQyIJMLv7Qm5UD7J3oUu5G89NEASft5Xj4v3Kyy7jmeLYylzenkbpdUhv2NeKd5xMPrzVIBWhm02jkJ7eH9I5Q/0',	'王欣童',	'17858951826',	0,	'1994-12-28',	'2016-06-01',	'13819801110',	'1',	0,	'宁波诺丁汉大学',	0,	0,	0,	1),
+(2016010,	'o4oq9vhe4HonpQDrvu7MlvarPb40',	'http://wx.qlogo.cn/mmopen/FqoqEHvgIuLQyIJMLv7QmybH1rqSgVt3ryfCw8dpMAHD6KtmH4ibKmMsmcgwVu6e5WVPpmP8YjymxEnn5AXKqdG3VEANicNOgK/0',	'王秋实',	'17858951822',	0,	'1995-11-02',	'2016-06-01',	'13819801110',	'20000',	0,	'浙江省宁波市鄞州区泰康东路199号',	0,	0,	0,	1),
+(2016011,	'o4oq9vqQipWwRv6i2lTiP4GFfOVY',	'http://wx.qlogo.cn/mmopen/FqoqEHvgIuLQyIJMLv7Qmx7hR2SYNCSBR4qOWiatzabzP2ECsamJtREpnsWaqtwWP5vbENU383aDJ5mGuBTcUjczOH1DLB3iac/0',	'戴文豪',	'17855846323',	1,	'2004-01-15',	'2016-06-02',	'18858002358',	'0',	0,	'浙江万里学院',	0,	0,	0,	1);
 
 DROP TABLE IF EXISTS `vol_user_type`;
 CREATE TABLE `vol_user_type` (
@@ -318,6 +373,8 @@ CREATE TABLE `vol_user_type_apply` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='身份申请表';
 
+INSERT INTO `vol_user_type_apply` (`id`, `uid`, `tid`, `content`, `date`, `status`) VALUES
+(1,	2016007,	1,	'我想成为一名优秀的义工。',	'2016-06-02',	2);
 
 DROP TABLE IF EXISTS `vol_videos`;
 CREATE TABLE `vol_videos` (
@@ -334,4 +391,4 @@ INSERT INTO `vol_videos` (`id`, `title`, `url`, `thumb`, `date`) VALUES
 (2,	'我为建寺添砖瓦（义工掠影）',	'http://v.youku.com/v_show/id_XMTU1NzAzMDA1Mg==.html?from=s1.8-1-1.2',	'http://img3.imgtn.bdimg.com/it/u=710867256,1264885149&fm=21&gp=0.jpg',	'2016-05-04 04:06:40'),
 (3,	'义工“贴心”环卫工',	'http://v.youku.com/v_show/id_XMTU1NjQzMzE0MA==.html?from=s1.8-1-1.2',	'http://img0.imgtn.bdimg.com/it/u=3326003744,2518036514&fm=21&gp=0.jpg',	'2016-05-04 04:07:31');
 
--- 2016-05-20 00:58:28
+-- 2016-06-03 00:52:32

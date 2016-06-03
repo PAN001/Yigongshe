@@ -93,3 +93,1542 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
 
+[ 2016-05-20T16:17:13+08:00 ] 101.226.61.193 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-05-20T16:17:14+08:00 ] 101.226.61.193 /index.php?m=user&c=index&a=login&openid=o4oq9vjvanLVtnUxwXKRpf6E45J0&avatar=http://wx.qlogo.cn/mmopen/FqoqEHvgIuL99hOqWDAxM1icOAzJ2sSkfC6Esd7etYWBJpibSaIlhL0Nsn2FEfgiaicVs2lLmiaUkqH4q5VU0N6fNGGVtOtBxBaNw/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9vjvanLVtnUxwXKRpf6E45J0' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-05-20T16:17:15+08:00 ] 101.226.61.193 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-05-20T16:17:24+08:00 ] 101.226.61.193 /User/Index/dormobile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_user` WHERE ( mobile='18858002358' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-05-20T16:17:27+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-05-20T16:17:37+08:00 ] 101.226.61.193 /User/Index/myrecommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-05-20T16:17:39+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-05-20T16:17:40+08:00 ] 101.226.61.193 /User/Index/intelapply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 99 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 99 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 101 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 101 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 103 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 103 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 105 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 105 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 107 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 107 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 109 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 109 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 111 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 111 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 113 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 113 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 115 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 115 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 117 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 117 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 119 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 119 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 121 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 121 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 123 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 123 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 125 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 125 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 127 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 127 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 129 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 129 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 131 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 131 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 133 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 133 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 135 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 135 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 137 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 137 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 139 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 139 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 141 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 141 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 143 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 143 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 145 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 145 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 147 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 147 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 149 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 149 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 151 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 151 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 153 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 153 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 155 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 155 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 157 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 157 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 159 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-05-20T16:18:31+08:00 ] 101.226.61.193 /User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-05-20T16:18:33+08:00 ] 101.226.61.193 /User/Index/intelapply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 98 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 98 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 100 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 100 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 102 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 102 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 104 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 104 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 106 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 106 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 108 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 108 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 110 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 110 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 112 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 112 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 114 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 114 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 116 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 116 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 118 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 118 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 120 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 120 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 122 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 122 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 124 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 124 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 126 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 126 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 128 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 128 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 130 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 130 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 132 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 132 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 134 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 134 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 136 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 136 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 138 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 138 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 140 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 140 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 142 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 142 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 144 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 144 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 146 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 146 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 148 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 148 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 150 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 150 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 152 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 152 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 154 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 154 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 156 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 156 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 158 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-05-20T16:18:46+08:00 ] 101.226.61.193 /User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-05-20T16:18:48+08:00 ] 101.226.61.193 /User/Index/intelapply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 97 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 97 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 99 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 99 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 101 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 101 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 103 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 103 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 105 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 105 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 107 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 107 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 109 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 109 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 111 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 111 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 113 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 113 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 115 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 115 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 117 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 117 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 119 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 119 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 121 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 121 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 123 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 123 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 125 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 125 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 127 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 127 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 129 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 129 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 131 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 131 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 133 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 133 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 135 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 135 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 137 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 137 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 139 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 139 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 141 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 141 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 143 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 143 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 145 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 145 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 147 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 147 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 149 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 149 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 151 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 151 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 153 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 153 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 155 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 155 行.
+NOTIC: [8] Undefined variable: adate /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 157 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/web/yigong/public_html/Application/Runtime/Cache/User/f0a7ae080830b44653a4b2a51007b51f.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-05-20T16:20:28+08:00 ] 101.226.125.121 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-05-20T16:20:29+08:00 ] 101.226.125.121 /index.php?m=user&c=index&a=login&openid=o4oq9vrth6xoOukHedv5iQtqTbs8&avatar=http://wx.qlogo.cn/mmopen/ajNVdqHZLLD0Z0Ksut3uvXWYNovOJGRoJaz6unyg4Ml56oNF8CNvZdnUZP5ROHlkCicGibkewlcjKA5ic5LTt0puQ/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9vrth6xoOukHedv5iQtqTbs8' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-05-20T16:21:15+08:00 ] 101.226.61.193 /User/Index/dointelapply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Undefined index: one /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined index: two /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 188 行.
+NOTIC: [8] Undefined index: three /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined index: four /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 190 行.
+NOTIC: [8] Undefined index: five /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 191 行.
+NOTIC: [8] Undefined index: six /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 192 行.
+NOTIC: [8] Undefined index: seven /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 193 行.
+NOTIC: [8] Undefined index: eight /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 194 行.
+NOTIC: [8] Undefined index: nine /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 195 行.
+NOTIC: [8] Undefined index: ten /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined index: twelve /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 198 行.
+NOTIC: [8] Undefined index: thirteen /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 199 行.
+NOTIC: [8] Undefined index: fourteen /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 200 行.
+NOTIC: [8] Undefined index: fifteen /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 201 行.
+NOTIC: [8] Undefined index: sixteen /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 202 行.
+NOTIC: [8] Undefined index: seventeen /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 203 行.
+NOTIC: [8] Undefined index: nineteen /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 205 行.
+NOTIC: [8] Undefined index: twenty /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 206 行.
+NOTIC: [8] Undefined index: twentyone /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 207 行.
+NOTIC: [8] Undefined index: twentytwo /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 208 行.
+NOTIC: [8] Undefined index: twentythree /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 209 行.
+NOTIC: [8] Undefined index: twentyfour /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 210 行.
+NOTIC: [8] Undefined index: twentyfive /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 211 行.
+NOTIC: [8] Undefined index: twentysix /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 212 行.
+NOTIC: [8] Undefined index: twentyseven /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 213 行.
+NOTIC: [8] Undefined index: twentynine /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 215 行.
+NOTIC: [8] Undefined index: thirty /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 216 行.
+NOTIC: [8] Undefined index: thirtyone /www/web/yigong/public_html/Application/User/Controller/IndexController.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: INSERT INTO `vol_intelapply` (`uid`,`oid`,`cid`,`content`,`one`,`two`,`three`,`four`,`five`,`six`,`seven`,`eight`,`nine`,`ten`,`eleven`,`twelve`,`thirteen`,`fourteen`,`fifteen`,`sixteen`,`seventeen`,`eighteen`,`nineteen`,`twentyone`,`twentythree`,`twentyfour`,`twentyfive`,`twentysix`,`twentyseven`,`twentyeight`,`twentynine`,`thirty`,`thirtyone`,`date`,`status`) VALUES ('2016001','1','3','我是好人',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'eleven',NULL,NULL,NULL,NULL,NULL,NULL,'eighteen',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'twentyeight',NULL,NULL,NULL,'2016-05-20','1') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-05-20T16:21:17+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-05-20T16:22:13+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-05-20T16:22:14+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-05-20T16:22:15+08:00 ] 101.226.61.193 /User/Index/myduty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id <> '1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id <> '3' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_obligation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' and status='0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' and status='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' and status='0' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-05-20T16:22:17+08:00 ] 101.226.33.227 /User/Index/myduty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-05-20T16:22:31+08:00 ] 106.120.160.119 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-05-20T16:23:22+08:00 ] 171.8.167.69 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-05-20T16:42:15+08:00 ] 101.226.61.193 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-05-20T16:42:17+08:00 ] 101.226.61.193 /index.php?m=user&c=index&a=login&openid=o4oq9vjvanLVtnUxwXKRpf6E45J0&avatar=http://wx.qlogo.cn/mmopen/FqoqEHvgIuL99hOqWDAxM1icOAzJ2sSkfC6Esd7etYWBJpibSaIlhL0Nsn2FEfgiaicVs2lLmiaUkqH4q5VU0N6fNGGVtOtBxBaNw/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9vjvanLVtnUxwXKRpf6E45J0' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-20T16:42:17+08:00 ] 101.226.61.193 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-05-20T16:42:19+08:00 ] 101.226.61.193 /User/Index/myduty
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_obligation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id <> '1' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id <> '3' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_obligation_type` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vol_consultation_type` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_obligation` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_obligation` WHERE ( uid='2016001' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_consultation` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_consultation` WHERE ( aid='2016001' and status='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-05-20T16:42:35+08:00 ] 101.226.61.193 /User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-05-20T16:43:32+08:00 ] 101.226.125.121 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-05-20T16:43:33+08:00 ] 101.226.125.121 /index.php?m=user&c=index&a=login&openid=o4oq9vrth6xoOukHedv5iQtqTbs8&avatar=http://wx.qlogo.cn/mmopen/ajNVdqHZLLD0Z0Ksut3uvXWYNovOJGRoJaz6unyg4Ml56oNF8CNvZdnUZP5ROHlkCicGibkewlcjKA5ic5LTt0puQ/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9vrth6xoOukHedv5iQtqTbs8' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-05-20T16:48:16+08:00 ] 101.226.61.193 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-05-20T16:48:17+08:00 ] 101.226.61.193 /index.php?m=user&c=index&a=login&openid=o4oq9vjvanLVtnUxwXKRpf6E45J0&avatar=http://wx.qlogo.cn/mmopen/FqoqEHvgIuL99hOqWDAxM1icOAzJ2sSkfC6Esd7etYWBJpibSaIlhL0Nsn2FEfgiaicVs2lLmiaUkqH4q5VU0N6fNGGVtOtBxBaNw/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9vjvanLVtnUxwXKRpf6E45J0' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-05-20T16:48:18+08:00 ] 101.226.61.193 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-05-20T16:48:20+08:00 ] 101.226.61.193 /User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-05-20T16:48:22+08:00 ] 101.226.61.193 /User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-05-20T16:48:24+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-05-20T16:48:27+08:00 ] 101.226.61.193 /User/Index/integral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `vol_integral_record` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_integral_record` WHERE ( uid='2016001' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-05-20T16:48:31+08:00 ] 101.226.61.193 /User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-05-20T16:49:59+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-05-20T16:50:00+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-05-20T16:50:20+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-05-20T16:50:29+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-05-20T16:50:30+08:00 ] 101.226.61.193 /User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-05-20T16:50:33+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-05-20T16:50:39+08:00 ] 101.226.61.193 /User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-05-20T16:50:42+08:00 ] 101.226.61.193 /User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016001' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='17757863353' and status='1' or rmobile='17757863353' and status='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016001' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-05-20T17:57:32+08:00 ] 101.226.125.121 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-20T17:57:34+08:00 ] 101.226.125.121 /index.php?m=user&c=index&a=login&openid=o4oq9vrth6xoOukHedv5iQtqTbs8&avatar=http://wx.qlogo.cn/mmopen/ajNVdqHZLLD0Z0Ksut3uvXWYNovOJGRoJaz6unyg4Ml56oNF8CNvZdnUZP5ROHlkCicGibkewlcjKA5ic5LTt0puQ/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9vrth6xoOukHedv5iQtqTbs8' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-05-20T17:57:45+08:00 ] 101.226.125.121 /index.php/User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-05-20T17:57:46+08:00 ] 101.226.125.121 /index.php?m=user&c=index&a=login&openid=o4oq9vrth6xoOukHedv5iQtqTbs8&avatar=http://wx.qlogo.cn/mmopen/ajNVdqHZLLD0Z0Ksut3uvXWYNovOJGRoJaz6unyg4Ml56oNF8CNvZdnUZP5ROHlkCicGibkewlcjKA5ic5LTt0puQ/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9vrth6xoOukHedv5iQtqTbs8' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-05-20T20:16:30+08:00 ] 125.111.90.235 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-05-20T20:16:31+08:00 ] 125.111.90.235 /index.php?m=user&c=index&a=login&openid=o4oq9vspS4_9aw05quh05NECOXcU&avatar=http://wx.qlogo.cn/mmopen/PiajxSqBRaEJp4BW1UydINRymKI5rpibeGh3R6BjOK1qynDJraZ46QPzQ6f29qYWibBcl0GGibccRWPcAd7z0BbBibQ/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9vspS4_9aw05quh05NECOXcU' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-05-20T20:16:31+08:00 ] 125.111.90.235 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vol_user` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_user_type_apply` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type_apply` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vol_user` WHERE ( rmobile='18858237143' and status='1' or rmobile='18858237143' and status='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `vol_user_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_user_type` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-05-20T20:16:33+08:00 ] 125.111.90.235 /index.php/User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `vol_intelapply` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_intelapply` WHERE ( uid='2016003' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vol_sup_money` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_money` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vol_sup_other` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vol_sup_other` WHERE ( uid='2016003' and status='1' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-05-20T21:16:24+08:00 ] 122.245.122.131 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-05-20T21:16:25+08:00 ] 122.245.122.131 /index.php?m=user&c=index&a=login&openid=o4oq9viBz2Ij7uvXRsKS-OrTlfn8&avatar=http://wx.qlogo.cn/mmopen/dXkFyeppkCPHxyNuEA8sAEw6iaibFicThRLWwGbfHnh0edQylibXgYQetqO2AqmXrZxqU4cZEsicrkFBT71IibrQFTuBmKREuEyWFO/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9viBz2Ij7uvXRsKS-OrTlfn8' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-05-20T21:17:09+08:00 ] 122.245.122.131 /User/Index/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_user` WHERE `mobile` = '18606861335' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-05-20T21:17:13+08:00 ] 122.245.122.131 /index.php?m=user&c=index&a=login&openid=o4oq9viBz2Ij7uvXRsKS-OrTlfn8&avatar=http://wx.qlogo.cn/mmopen/dXkFyeppkCPHxyNuEA8sAEw6iaibFicThRLWwGbfHnh0edQylibXgYQetqO2AqmXrZxqU4cZEsicrkFBT71IibrQFTuBmKREuEyWFO/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9viBz2Ij7uvXRsKS-OrTlfn8' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-05-20T21:17:58+08:00 ] 122.245.122.131 /index.php/User/Index/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-05-20T21:17:59+08:00 ] 122.245.122.131 /index.php?m=user&c=index&a=login&openid=o4oq9viBz2Ij7uvXRsKS-OrTlfn8&avatar=http://wx.qlogo.cn/mmopen/dXkFyeppkCPHxyNuEA8sAEw6iaibFicThRLWwGbfHnh0edQylibXgYQetqO2AqmXrZxqU4cZEsicrkFBT71IibrQFTuBmKREuEyWFO/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9viBz2Ij7uvXRsKS-OrTlfn8' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-05-20T21:18:04+08:00 ] 122.245.122.131 /index.php/User/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-05-20T21:18:05+08:00 ] 122.245.122.131 /index.php?m=user&c=index&a=login&openid=o4oq9viBz2Ij7uvXRsKS-OrTlfn8&avatar=http://wx.qlogo.cn/mmopen/dXkFyeppkCPHxyNuEA8sAEw6iaibFicThRLWwGbfHnh0edQylibXgYQetqO2AqmXrZxqU4cZEsicrkFBT71IibrQFTuBmKREuEyWFO/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `vol_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vol_user` WHERE ( openid='o4oq9viBz2Ij7uvXRsKS-OrTlfn8' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
