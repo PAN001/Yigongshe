@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>身份审核-<{$Think.config.WEB_NAME}></title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/sm.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/sm-extend.css">
+    <link rel="stylesheet" href="__PUBLIC__/template/admin/css/main-admin.css">
+
+  </head>
+  <body>
+    <div class="content-box no-top">
+    <div class="main-con">
+    <volist name="oneidentity" id="oneidentity">
+ <div class="sup-p con-font con-color con-pd bgcolor-1">
+   <table cellpadding="0" cellspacing="0" class="data-table">
+     <tr><td>日期：<{$oneidentity.date}>  姓名：<php>$uid=$oneidentity['uid'];$m=M('user');$profile=$m->where("uid='$uid'")->find();echo $profile['name'];</php>  状态：<span>待审核</span></td></tr>
+     <tr><td>出生日期：<{$profile.birth}>  积分：<{$profile.score}>  申请身份：<php>$id=$oneidentity['tid'];$m=M('user_type');$user_type=$m->where("id='$id'")->find();echo $user_type['title'];</php></td></tr>
+     <tr><td>推荐人：<{$profile.rmobile}>  手机：<{$profile.mobile}></td></tr>
+   </table>
+    <div class="con-area con-pd-s">
+      详情：<{$oneidentity.content}>
+    </div>
+    <table cellpadding="0" cellspacing="0" class="act-table">
+     <tr><td class="bor-b-d"><a href="__URL__/doidentity/id/<{$oneidentity.id}>/uid/<{$oneidentity.uid}>/type/<{$oneidentity.tid}>/status/2/"><img src="__PUBLIC__/template/admin/images/icon_gou_w.png"/></a></td><td>&nbsp;</td><td class="bor-b-d"><a href="__URL__/doidentity/id/<{$oneidentity.id}>/uid/<{$oneidentity.uid}>/status/0/"><img src="__PUBLIC__/template/admin/images/icon_x_w.png"/></a></td></tr>
+    </table>
+    
+  </div>
+  </volist>
+  <volist name="twoidentity" id="twoidentity">
+    <div class="sup-p2 con-font con-pd bgcolor-w con-mt">
+   <table cellpadding="0" cellspacing="0" class="data-table">
+     <tr><td>日期：<{$twoidentity.date}>  姓名：<php>$uid=$twoidentity['uid'];$m=M('user');$twoprofile=$m->where("uid='$uid'")->find();echo $twoprofile['name'];</php>  状态：<span>已通过</span></td></tr>
+     <tr><td>出生日期：<{$twoprofile.birth}>  积分：<{$twoprofile.score}>  申请身份：<php>$id=$twoidentity['tid'];$m=M('user_type');$twouser_type=$m->where("id='$id'")->find();echo $twouser_type['title'];</php></td></tr>
+     <tr><td>推荐人：<{$twoprofile.rmobile}>  手机：<{$twoprofile.mobile}></td></tr>
+   </table>
+  </div>
+  </volist>
+  
+  
+  </div>
+  
+  
+</div>
+    
+    <nav class="bar bar-tab">
+    <a class="tab-item external" href="/Admin">
+      <span class="tab-label">返回导航</span>
+    </a>
+    </nav>
+
+          
+          
+<script src="__PUBLIC__/template/admin/js/zepto.min.js"></script>
+<script src="__PUBLIC__/template/admin/js/sm.js"></script>
+<script src="__PUBLIC__/template/admin/js/sm-extend.js"></script>
+  </body>
+</html>

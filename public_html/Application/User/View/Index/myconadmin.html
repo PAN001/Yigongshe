@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>咨询管理-<{$Think.config.WEB_NAME}></title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="icon" type="image/png" href="__PUBLIC__/template/default/assets/i/favicon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="__PUBLIC__/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="__PUBLIC__/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileImage" content="__PUBLIC__/template/default/assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <link rel="stylesheet" href="__PUBLIC__/template/default/assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/template/default/assets/css/app.css">
+</head>
+<body>
+  <header data-am-widget="header"
+          class="am-header am-header-default">
+      <div class="am-header-left am-header-nav">
+          <a href="/" class="">
+
+                <i class="am-header-icon am-icon-home"></i>
+          </a>
+      </div>
+
+      <h1 class="am-header-title">
+          <a href="" class="">
+            咨询管理
+          </a>
+      </h1>
+
+      <div class="am-header-right am-header-nav">
+          <a href="/User/Index/index" class="">
+          <if condition="(!isset($_SESSION['uid']) || $_SESSION['uid']=='')">
+          <img src="__PUBLIC__/template/default/assets/i/yigavatar.jpg" alt="" class="am-comment-avatar" style="width:35px;height:35px;margin-top:8px;margin-bottom:8px;">
+          <else />
+          <img src="<{$comprofile.avatar}>" alt="" class="am-comment-avatar" style="width:35px;height:35px;margin-top:8px;margin-bottom:8px;">
+          </if>
+          </a>
+      </div>
+  </header>
+  <volist name="myconadmin" id="myconadmin">
+  <if condition="$myconadmin['status']==2">
+  <div class="am-panel am-panel-default" style="height:190px;">
+    <div class="am-panel-bd"><php>$id=$myconadmin['cid'];$m=M('consultation_type');$consultation_type=$m->where("id='$id'")->find();echo $consultation_type['title'];</php></br><{$myconadmin.content}></br></br></br><div style="float:left;vertical-align:bottom;"><{$myconadmin.adate}></div><div style="float:right;vertical-align:bottom;"><a class="am-btn am-btn-danger" style="height:39px;width:100px;" disabled="disabled">已完成</a></div></div>
+  </div>
+  <elseif condition="$myconadmin['status']==1"/>
+  <div class="am-panel am-panel-default" style="height:190px;">
+    <div class="am-panel-bd">日期：<{$myconadmin.date}> 姓名：<php>$uid=$myconadmin['uid'];$m=M('user');$userinfo=$m->where("uid='$uid'")->find(); echo $userinfo['name'];</php> 状态：<span style="color:red;">处理中</span></br>问题类型：<php>$id=$myconadmin['cid'];$m=M('consultation_type');$consultation_type=$m->where("id='$id'")->find();echo $consultation_type['title'];</php> 手机：<php>$uid=$myconadmin['uid'];$m=M('user');$userinfo=$m->where("uid='$uid'")->find(); echo $userinfo['mobile'];</php></br><{$myconadmin.content}></div>
+  </div>
+  <else />
+  <div class="am-panel am-panel-default" style="height:190px;">
+    <div class="am-panel-bd">日期：<{$myconadmin.date}> 姓名：<php>$uid=$myconadmin['uid'];$m=M('user');$userinfo=$m->where("uid='$uid'")->find(); echo $userinfo['name'];</php> 状态：<span style="color:red;">待处理</span></br>问题类型：<php>$id=$myconadmin['cid'];$m=M('consultation_type');$consultation_type=$m->where("id='$id'")->find();echo $consultation_type['title'];</php> 手机：<php>$uid=$myconadmin['uid'];$m=M('user');$userinfo=$m->where("uid='$uid'")->find(); echo $userinfo['mobile'];</php></br><{$myconadmin.content}></br></br><a href="__URL__/domyconadmin/id/<{$myconadmin.id}>/status/1/" class="am-btn am-btn-primary" style="height:39px;width:49%;float:left;vertical-align:bottom;">√</a><a href="__URL__/deletemyconadmin/id/<{$myconadmin.id}>/" class="am-btn am-btn-danger" style="height:39px;width:49%;float:right;vertical-align:bottom;">×</a></div>
+  </div>
+  </if>
+  </volist>
+<div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default "
+     id="">
+  <ul class="am-navbar-nav am-cf am-avg-sm-4">
+    <li>
+      <a href="/">
+        <span class="am-icon-server"></span>
+        <span class="am-navbar-label">综合信息</span>
+      </a>
+    </li>
+    <li>
+      <a href="__URL__/support">
+        <span class="am-icon-support"></span>
+        <span class="am-navbar-label">提供支持</span>
+      </a>
+    </li>
+    <li>
+      <a href="__URL__/index">
+        <span class="am-icon-user"></span>
+        <span class="am-navbar-label">我的信息</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="__PUBLIC__/template/default/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="__PUBLIC__/template/default/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="__PUBLIC__/template/default/assets/js/amazeui.min.js"></script>
+</body>
+</html>
