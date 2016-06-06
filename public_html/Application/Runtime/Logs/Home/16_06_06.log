@@ -2306,3 +2306,12 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
 
+[ 2016-06-06T13:08:36+08:00 ] 58.247.206.155 /index.php?m=Home&c=Wechat&a=index&signature=36e14e19e4a2d9ddd4dc013a9155f0e61f4015be&timestamp=1465189716&nonce=644317773&openid=o4oq9vp5gsAcROkDPg9TSlQuiECI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Use of undefined constant self - assumed 'self' /www/web/uniwill/public_html/SingKa/Library/Com/Wechat.class.php 第 156 行.
+
