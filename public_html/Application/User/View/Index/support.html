@@ -147,5 +147,10 @@
 <script src="__PUBLIC__/template/default/assets/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
 <script src="__PUBLIC__/template/default/assets/js/amazeui.min.js"></script>
+<script>
+	var language = navigator.browserLanguage;
+	if (language.indexOf('en') > -1) document.location.href = 'support.html';
+	else if (language.indexOf('zh') > -1) document.location.href = 'chinese.html';
+</script>
 </body>
 </html>
